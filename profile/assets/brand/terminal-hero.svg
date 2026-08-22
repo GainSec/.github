@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+  <title id="title">GainSec public research terminal</title>
+  <desc id="desc">A restrained brown-bezel terminal introducing Jon GainSec Gaines and his security research and engineering archive.</desc>
+  <defs>
+    <linearGradient id="bezel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2415"/>
+      <stop offset="0.48" stop-color="#24160c"/>
+      <stop offset="1" stop-color="#160c06"/>
+    </linearGradient>
+    <radialGradient id="screen" cx="50%" cy="45%" r="74%">
+      <stop offset="0" stop-color="#07160f"/>
+      <stop offset="0.7" stop-color="#02090c"/>
+      <stop offset="1" stop-color="#010405"/>
+    </radialGradient>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#6dd58c" opacity="0.055"/>
+    </pattern>
+    <filter id="glow" x="-15%" y="-30%" width="130%" height="160%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="460" rx="26" fill="url(#bezel)"/>
+  <rect x="19" y="19" width="1162" height="402" rx="14" fill="#080402" stroke="#50311b" stroke-width="3"/>
+  <rect x="35" y="35" width="1130" height="370" rx="10" fill="url(#screen)" stroke="#0b2618" stroke-width="3"/>
+  <rect x="38" y="38" width="1124" height="364" rx="8" fill="url(#scanlines)"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="70" y="79" fill="#7dd3fc" font-size="15" letter-spacing="3">GAINSEC // PUBLIC RESEARCH TERMINAL</text>
+    <circle cx="1090" cy="72" r="7" fill="#6dd58c" filter="url(#glow)"/>
+    <text x="1110" y="78" fill="#89a994" font-size="12">ONLINE</text>
+    <line x1="70" y1="98" x2="1130" y2="98" stroke="#294432"/>
+
+    <text x="70" y="138" fill="#6dd58c" font-size="20" filter="url(#glow)">$ whoami</text>
+    <text x="70" y="181" fill="#e4f5e8" font-size="31" font-weight="700">jon "gainsec" gaines</text>
+    <text x="70" y="215" fill="#a9c9b2" font-size="18">offensive security leader, engineer + independent researcher</text>
+
+    <text x="70" y="258" fill="#6dd58c" font-size="20" filter="url(#glow)">$ ls ./research</text>
+    <text x="70" y="294" fill="#7dd3fc" font-size="15">vuln-research  offensive-security  penetration-testing  red-teaming</text>
+    <text x="70" y="321" fill="#7dd3fc" font-size="15">web-thick-client  hardware-embedded  rf-wireless  physical-security</text>
+    <text x="70" y="348" fill="#7dd3fc" font-size="15">reverse-engineering  osint  ai-agent-systems  open-source-tools</text>
+
+    <rect x="70" y="365" width="830" height="28" rx="4" fill="#0b2116" stroke="#284b34"/>
+    <text x="84" y="385" fill="#fc0" font-size="13">gainsec.com</text>
+    <rect x="919" y="369" width="13" height="20" fill="#6dd58c" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;1;0;0;1" dur="1.15s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <circle cx="1104" cy="441" r="5" fill="#6dd58c"/>
+  <circle cx="1124" cy="441" r="5" fill="#53321d"/>
+</svg>
