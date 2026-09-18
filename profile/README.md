@@ -14,7 +14,7 @@
 
 Further research, technical write-ups, commentary, and other posts can be found at [GainSec.com](https://gainsec.com/).
 
-<sub>This page was last updated 08/2026.</sub>
+<sub>This page was last updated 09/2026.</sub>
 
 ## Research Projects with GitHub Repos
 
@@ -22,6 +22,7 @@ Further research, technical write-ups, commentary, and other posts can be found 
 
 - **Flock Safety Security Vulnerabilities:** [Examining the Security Posture of an Anti-Crime Ecosystem](https://github.com/GainSec/anti-crime-ecosystem-research) is a versioned whitepaper and disclosure archive covering >50 vulnerabilities I found in Flock Safety's gunshot detection, license-plate reader, and compute hardware, with defender guidance and repository-maintained finding/CVE accounting.
 - **Flock Safety Offensive Security Tooling:** [BirdShot](https://github.com/GainSec/BirdShot) is an offline-first offensive framework for authorized Flock Safety security assessments and penetration testing; [Trap Shooter / Sniffer / Alarm](https://github.com/GainSec/Flock-Safety-Trap-Shooter-Sniffer-Alarm) detects nearby Flock-related Wi-Fi activity; and the [Falcon/Sparrow EDL firehose](https://github.com/GainSec/flock-safety-falcon-sparrow-alpr-edl-firehose) provides EDL-mode interaction tooling for researched ALPR hardware.
+- **Verkada Security Vulnerabilities:** [Verkracked](https://gainsec.com/2026/09/06/verkracked-security-research-on-verkada-anti-crime-devices-part-0/) is an ongoing independent security research project examining owned Verkada hardware. Public companion releases currently include a [local cloud framework for Verkada alarm hubs](https://github.com/GainSec/verkada-verkracked-alarm-hub-local-framework) and a [Sub-GHz interoperability framework](https://github.com/GainSec/verkada-verkracked-subghz-framework). Parts 1–3 are scheduled for public disclosure on December 5, 2026.
 - **Digital Ally / Uniview:** the [ThermoVu / Uniview security research](https://github.com/GainSec/DigitalAlly-ThermoVu-Uniview-Security-Research) is accompanied by the [Uniview LAPI Research Toolkit](https://github.com/GainSec/Uniview-LAPI-Research-Toolkit), [ONVIF enumeration](https://github.com/GainSec/onvif-enum), and the [TensorFlow generic harness](https://github.com/GainSec/tensorflow-generic-harness) used for OEM-style model-pipeline replay.
 - **Connected infrastructure:** [Tridium Niagara CVE PoCs](https://github.com/GainSec/CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara) preserve proofs of concept for CVE-2017-16744 and CVE-2017-16748.
 - **Vehicle and V2X material:** [Phrack 72 V2X companion artifacts](https://github.com/GainSec/Phrack-72-Raw-Output-V2X) preserve raw output and logs accompanying my paper that was published in Phrack 72.
@@ -39,8 +40,9 @@ The following incomplete list extends the GitHub record with security research, 
 
 <!-- AUTO:RESEARCH START -->
 <details>
-<summary><strong>Flock Safety Research · 11 publications</strong></summary>
+<summary><strong>Flock Safety Research · 12 publications</strong></summary>
 
+- **2026-09-17** — [Bird Hunting Season: Molting](https://gainsec.com/2026/09/17/bird-hunting-season-molting/)
 - **2026-08-09** — [Bird Hunting Season at Def Con 34](https://gainsec.com/2026/08/09/bird-hunting-season-at-def-con-34/) — [Companion PDF for my DEF CON 34 Main Stage talk](https://media.defcon.org/DEF%20CON%2034/DEF%20CON%2034%20presentations/DEF%20CON%2034%20presentations/DEF%20CON%2034%20-%20Jon%20Gaines%20-%20Bird%20Hunting%20Season%20The%20Final%20Flight%20-%20PDF%20v1.pdf), covering 55 vulnerabilities I found in Flock Safety’s hardware ecosystem.
 - **2026-01-09** — [Finding 67 Flock Safety Live PTZ Camera/LPR Feeds and Debug Web Interfaces accidentally exposed without authentication to the internet](https://gainsec.com/2026/01/09/bird-hunting-season-finding-67-live-camera-feeds-and-debug-web-interfaces-accidentally-exposed-by-flock-safety/)
 - **2025-11-12** — [BirdEye](https://gainsec.com/2025/11/12/birdeye/)
@@ -52,6 +54,14 @@ The following incomplete list extends the GitHub record with security research, 
 - **2025-06-19** — [Grounded Flight – Device 2: Root Shell on Flock Safety’s Falcon/Sparrow Automated License Plate Reader](https://gainsec.com/2025/06/19/grounded-flight-device-2-root-shell-on-flock-safetys-falcon-sparrow-automated-license-plate-reader/)
 - **2025-06-19** — [Plucked and Rooted – Device 1: Debug Shell on Flock Safety’s Raven Gunshot Detection System](https://gainsec.com/2025/06/19/plucked-and-rooted-device-1-debug-shell-on-flock-safetys-raven-gunshot-detection-system/)
 - **2025-06-19** — [Bird Hunting Season – Security Research on Flock Safety’s Anti-Crime Systems](https://gainsec.com/2025/06/19/bird-hunting-season-security-research-on-flock-safety-anti-crime-systems/)
+
+</details>
+
+<details>
+<summary><strong>Verkada / Verkracked Research · 2 publications</strong></summary>
+
+- **2026-09-06** — [Verkracked Parts 4 &amp; 5 – Local Cloud and Sub-GHz Frameworks for Verkada Alarm Hubs](https://gainsec.com/2026/09/06/verkracked-parts-4-5-local-cloud-and-sub-ghz-frameworks-for-verkada-alarm-hubs/)
+- **2026-09-06** — [Verkracked – Security Research on Verkada Anti-Crime Devices – Part 0](https://gainsec.com/2026/09/06/verkracked-security-research-on-verkada-anti-crime-devices-part-0/)
 
 </details>
 
@@ -97,8 +107,9 @@ The following incomplete list extends the GitHub record with security research, 
 </details>
 
 <details>
-<summary><strong>OSINT Research · 3 publications</strong></summary>
+<summary><strong>OSINT Research · 4 publications</strong></summary>
 
+- **2026-09-17** — [Government Run OSINT Services](https://gainsec.com/2026/09/17/government-run-osint-services/) — [SectorGov](https://sectorgov.com/), a public directory for discovering government service links.
 - **2023-01-03** — [10 Minutes of Google dorking for Covid Documents](https://gainsec.com/2023/01/03/10-minutes-of-google-dorking-for-covid-documents/) — [Article published in UNREDACTED Magazine, Issue 5 (2023)](https://inteltechniques.com/issues/005.pdf)
 - **2020-09-06** — [OSINT Escapades #1 Government Run People Search](https://gainsec.com/2020/09/06/osint-escapades-1-government-run-people-search/)
 - **2019-09-11** — [Government Run People Search Tools](https://gainsec.com/2019/09/11/government-run-people-search-tools/)
@@ -221,8 +232,8 @@ An offline-first offensive framework for authorized Flock Safety security assess
 </tr>
 <tr>
 <td width="50%" valign="top">
-<p align="center"><a href="https://github.com/Cyber-Castellum/DWARF"><img src="https://raw.githubusercontent.com/Cyber-Castellum/DWARF/main/dwarf/dashboard/static/dwarf-logo.png" alt="DWARF Cardano and Amaru fuzzing framework" width="320"></a></p>
-<h3><a href="https://github.com/Cyber-Castellum/DWARF">DWARF</a></h3>
+<p align="center"><a href="https://github.com/pragma-org/dwarf"><img src="https://raw.githubusercontent.com/pragma-org/dwarf/main/dwarf/dashboard/static/dwarf-logo.png" alt="DWARF Cardano and Amaru fuzzing framework" width="320"></a></p>
+<h3><a href="https://github.com/pragma-org/dwarf">DWARF</a></h3>
 Cardano and Amaru fuzzing and adversarial testing across serialization, mini-protocol, runtime, resource, and consensus surfaces, with replayable evidence and deterministic-simulation integration.
 </td>
 <td width="50%" valign="top">
@@ -237,7 +248,7 @@ A reverse-engineered camera-car dashboard and agent API that gives a human or au
 
 <!-- AUTO:CARDS START -->
 <details>
-<summary><strong>Vulnerability / Security Research · 14 projects</strong></summary>
+<summary><strong>Vulnerability / Security Research · 16 projects</strong></summary>
 
 <h4>Connected Public Safety and Anti-Crime Technology</h4>
 <p align="center"><a href="https://github.com/GainSec/anti-crime-ecosystem-research"><img src="assets/generated/cards/anti-crime-ecosystem-research.svg" alt="anti-crime-ecosystem-research project card" width="680"></a></p>
@@ -246,6 +257,8 @@ A reverse-engineered camera-car dashboard and agent API that gives a human or au
 <p align="center"><a href="https://github.com/GainSec/onvif-enum"><img src="assets/generated/cards/onvif-enum.svg" alt="onvif-enum project card" width="680"></a></p>
 <p align="center"><a href="https://github.com/GainSec/Uniview-LAPI-Research-Toolkit"><img src="assets/generated/cards/uniview-lapi-research-toolkit.svg" alt="Uniview-LAPI-Research-Toolkit project card" width="680"></a></p>
 <p align="center"><a href="https://github.com/GainSec/DigitalAlly-ThermoVu-Uniview-Security-Research"><img src="assets/generated/cards/digitalally-thermovu-uniview-security-research.svg" alt="DigitalAlly-ThermoVu-Uniview-Security-Research project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/verkada-verkracked-alarm-hub-local-framework"><img src="assets/generated/cards/verkada-verkracked-alarm-hub-local-framework.svg" alt="verkada-verkracked-alarm-hub-local-framework project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/verkada-verkracked-subghz-framework"><img src="assets/generated/cards/verkada-verkracked-subghz-framework.svg" alt="verkada-verkracked-subghz-framework project card" width="680"></a></p>
 <p align="center"><a href="https://github.com/GainSec/CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara"><img src="assets/generated/cards/cve-2017-16744-and-cve-2017-16748-tridium-niagara.svg" alt="CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara project card" width="680"></a></p>
 <p align="center"><a href="https://github.com/GainSec/flock-safety-falcon-sparrow-alpr-edl-firehose"><img src="assets/generated/cards/flock-safety-falcon-sparrow-alpr-edl-firehose.svg" alt="flock-safety-falcon-sparrow-alpr-edl-firehose project card" width="680"></a></p>
 <h4>Vulnerability Disclosures</h4>
@@ -279,7 +292,7 @@ A reverse-engineered camera-car dashboard and agent API that gives a human or au
 <summary><strong>Offensive Tooling · 16 projects</strong></summary>
 
 <h4>Fuzzing + Adversarial Testing</h4>
-<p align="center"><a href="https://github.com/Cyber-Castellum/DWARF"><img src="assets/generated/cards/dwarf.svg" alt="DWARF project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/pragma-org/dwarf"><img src="assets/generated/cards/dwarf.svg" alt="DWARF project card" width="680"></a></p>
 <h4>Reconnaissance + Enumeration</h4>
 <p align="center"><a href="https://github.com/GainSec/crt.sh-OSX"><img src="assets/generated/cards/crt-sh-osx.svg" alt="crt.sh-OSX project card" width="680"></a></p>
 <h4>OSINT</h4>
@@ -355,7 +368,7 @@ flowchart TB
 ```
 
 <details>
-<summary><strong>Vulnerability / Security Research · 14 projects</strong></summary>
+<summary><strong>Vulnerability / Security Research · 16 projects</strong></summary>
 
 ```mermaid
 flowchart TB
@@ -367,18 +380,20 @@ flowchart TB
     S0_0 --> P0_3["onvif-enum"]
     S0_0 --> P0_4["Uniview-LAPI-Research-Toolkit"]
     S0_0 --> P0_5["DigitalAlly-ThermoVu-Uniview-Security-Research"]
-    S0_0 --> P0_6["CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara"]
-    S0_0 --> P0_7["flock-safety-falcon-sparrow-alpr-edl-firehose"]
+    S0_0 --> P0_6["verkada-verkracked-alarm-hub-local-framework"]
+    S0_0 --> P0_7["verkada-verkracked-subghz-framework"]
+    S0_0 --> P0_8["CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara"]
+    S0_0 --> P0_9["flock-safety-falcon-sparrow-alpr-edl-firehose"]
     ROOT --> S0_1["Vulnerability Disclosures"]
-    S0_1 --> P0_8["macos-printer-simulator-security-research"]
-    S0_1 --> P0_9["AOL-Desktop-Gold-Security-Research"]
+    S0_1 --> P0_10["macos-printer-simulator-security-research"]
+    S0_1 --> P0_11["AOL-Desktop-Gold-Security-Research"]
     ROOT --> S0_2["Automotive + V2X Security"]
-    S0_2 --> P0_10["3rdParty-Carplay-AndroidAuto-Dongle-Security-Research"]
-    S0_2 --> P0_11["Wireless-Attack-Vectors-Against-Automobiles"]
+    S0_2 --> P0_12["3rdParty-Carplay-AndroidAuto-Dongle-Security-Research"]
+    S0_2 --> P0_13["Wireless-Attack-Vectors-Against-Automobiles"]
     ROOT --> S0_3["Hardware + Embedded Security"]
-    S0_3 --> P0_12["Little-Tikes-DreamProjector-Reverse-Engineering"]
+    S0_3 --> P0_14["Little-Tikes-DreamProjector-Reverse-Engineering"]
     ROOT --> S0_4["Research Companion Material"]
-    S0_4 --> P0_13["Phrack-72-Raw-Output-V2X"]
+    S0_4 --> P0_15["Phrack-72-Raw-Output-V2X"]
 ```
 
 </details>
@@ -493,6 +508,8 @@ flowchart TB
 - [onvif-enum](https://github.com/GainSec/onvif-enum) — Read-focused ONVIF enumeration for cameras, NVRs, and OEM physical-security devices.
 - [Uniview-LAPI-Research-Toolkit](https://github.com/GainSec/Uniview-LAPI-Research-Toolkit) — Conservative Uniview/OEM LAPI client with profiles and explicit write controls.
 - [DigitalAlly-ThermoVu-Uniview-Security-Research](https://github.com/GainSec/DigitalAlly-ThermoVu-Uniview-Security-Research) — Research archive for a facial-recognition and thermal access-control terminal.
+- [verkada-verkracked-alarm-hub-local-framework](https://github.com/GainSec/verkada-verkracked-alarm-hub-local-framework) — Local cloud emulator and owner-controlled laboratory framework for operating Verkada BH-series wireless alarm hubs without the vendor cloud.
+- [verkada-verkracked-subghz-framework](https://github.com/GainSec/verkada-verkracked-subghz-framework) — Sub-GHz interoperability framework for decoding, generating, replaying, and correlating Verkada alarm-hub wireless protocol traffic in authorized labs.
 - [CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara](https://github.com/GainSec/CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara) — Proofs of concept for CVE-2017-16744 and CVE-2017-16748 in Tridium Niagara.
 - [flock-safety-falcon-sparrow-alpr-edl-firehose](https://github.com/GainSec/flock-safety-falcon-sparrow-alpr-edl-firehose) — EDL-mode interaction tooling for Flock Safety Falcon/Sparrow ALPR hardware.
 
@@ -524,7 +541,7 @@ flowchart TB
 
 ### Offensive Tooling
 #### Fuzzing + Adversarial Testing
-- [DWARF](https://github.com/Cyber-Castellum/DWARF) — Cardano and Amaru fuzzing and adversarial-testing framework for serialization, protocol, runtime, resource, and consensus surfaces.
+- [DWARF](https://github.com/pragma-org/dwarf) — Cardano and Amaru fuzzing and adversarial-testing framework for serialization, protocol, runtime, resource, and consensus surfaces.
 
 #### Reconnaissance + Enumeration
 - [crt.sh-OSX](https://github.com/GainSec/crt.sh-OSX) — macOS-compatible passive certificate transparency enumeration script.
