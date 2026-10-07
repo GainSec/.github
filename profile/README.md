@@ -14,7 +14,7 @@
 
 Further research, technical write-ups, commentary, and other posts can be found at [GainSec.com](https://gainsec.com/).
 
-<sub>This page was last updated 09/2026.</sub>
+<sub>This page was last updated 10/2026.</sub>
 
 ## Research Projects with GitHub Repos
 
@@ -22,7 +22,7 @@ Further research, technical write-ups, commentary, and other posts can be found 
 
 - **Flock Safety Security Vulnerabilities:** [Examining the Security Posture of an Anti-Crime Ecosystem](https://github.com/GainSec/anti-crime-ecosystem-research) is a versioned whitepaper and disclosure archive covering >50 vulnerabilities I found in Flock Safety's gunshot detection, license-plate reader, and compute hardware, with defender guidance and repository-maintained finding/CVE accounting.
 - **Flock Safety Offensive Security Tooling:** [BirdShot](https://github.com/GainSec/BirdShot) is an offline-first offensive framework for authorized Flock Safety security assessments and penetration testing; [Trap Shooter / Sniffer / Alarm](https://github.com/GainSec/Flock-Safety-Trap-Shooter-Sniffer-Alarm) detects nearby Flock-related Wi-Fi activity; and the [Falcon/Sparrow EDL firehose](https://github.com/GainSec/flock-safety-falcon-sparrow-alpr-edl-firehose) provides EDL-mode interaction tooling for researched ALPR hardware.
-- **Verkada Security Vulnerabilities:** [Verkracked](https://gainsec.com/2026/09/06/verkracked-security-research-on-verkada-anti-crime-devices-part-0/) is an ongoing independent security research project examining owned Verkada hardware. Public companion releases currently include a [local cloud framework for Verkada alarm hubs](https://github.com/GainSec/verkada-verkracked-alarm-hub-local-framework) and a [Sub-GHz interoperability framework](https://github.com/GainSec/verkada-verkracked-subghz-framework). Parts 1–3 are scheduled for public disclosure on December 5, 2026.
+- **Verkada Security Vulnerabilities:** [Verkracked](https://gainsec.com/2026/09/06/verkracked-security-research-on-verkada-anti-crime-devices-part-0/) is an ongoing independent security research project examining owned Verkada hardware. Public releases currently include a [local cloud framework for Verkada alarm hubs](https://github.com/GainSec/verkada-verkracked-alarm-hub-local-framework), a [Sub-GHz interoperability framework](https://github.com/GainSec/verkada-verkracked-subghz-framework), a [CB62 local cloud emulator](https://github.com/GainSec/verkada-verkracked-bullet-cam-cloud-emulator), [VerkEye](https://github.com/GainSec/VerkEye)—an evidence-first local runtime for an owner-extracted CB62 vision model—and [read-only firmware-acquisition tooling](https://github.com/GainSec/verkada-verkracked-ambrella-CB62-firmwaredumper) for owned or explicitly authorized CB62 hardware. Parts 1–3 are scheduled for public disclosure on December 5, 2026.
 - **Digital Ally / Uniview:** the [ThermoVu / Uniview security research](https://github.com/GainSec/DigitalAlly-ThermoVu-Uniview-Security-Research) is accompanied by the [Uniview LAPI Research Toolkit](https://github.com/GainSec/Uniview-LAPI-Research-Toolkit), [ONVIF enumeration](https://github.com/GainSec/onvif-enum), and the [TensorFlow generic harness](https://github.com/GainSec/tensorflow-generic-harness) used for OEM-style model-pipeline replay.
 - **Connected infrastructure:** [Tridium Niagara CVE PoCs](https://github.com/GainSec/CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara) preserve proofs of concept for CVE-2017-16744 and CVE-2017-16748.
 - **Vehicle and V2X material:** [Phrack 72 V2X companion artifacts](https://github.com/GainSec/Phrack-72-Raw-Output-V2X) preserve raw output and logs accompanying my paper that was published in Phrack 72.
@@ -58,8 +58,9 @@ The following incomplete list extends the GitHub record with security research, 
 </details>
 
 <details>
-<summary><strong>Verkada / Verkracked Research · 2 publications</strong></summary>
+<summary><strong>Verkada / Verkracked Research · 3 publications</strong></summary>
 
+- **2026-10-04** — [Verkracked Part 8 – VerkEye](https://gainsec.com/2026/10/04/verkracked-part-8-verkeye/) — [VerkEye repository](https://github.com/GainSec/VerkEye)
 - **2026-09-06** — [Verkracked Parts 4 &amp; 5 – Local Cloud and Sub-GHz Frameworks for Verkada Alarm Hubs](https://gainsec.com/2026/09/06/verkracked-parts-4-5-local-cloud-and-sub-ghz-frameworks-for-verkada-alarm-hubs/)
 - **2026-09-06** — [Verkracked – Security Research on Verkada Anti-Crime Devices – Part 0](https://gainsec.com/2026/09/06/verkracked-security-research-on-verkada-anti-crime-devices-part-0/)
 
@@ -248,7 +249,7 @@ A reverse-engineered camera-car dashboard and agent API that gives a human or au
 
 <!-- AUTO:CARDS START -->
 <details>
-<summary><strong>Vulnerability / Security Research · 16 projects</strong></summary>
+<summary><strong>Vulnerability / Security Research · 19 projects</strong></summary>
 
 <h4>Connected Public Safety and Anti-Crime Technology</h4>
 <p align="center"><a href="https://github.com/GainSec/anti-crime-ecosystem-research"><img src="assets/generated/cards/anti-crime-ecosystem-research.svg" alt="anti-crime-ecosystem-research project card" width="680"></a></p>
@@ -261,6 +262,9 @@ A reverse-engineered camera-car dashboard and agent API that gives a human or au
 <p align="center"><a href="https://github.com/GainSec/verkada-verkracked-subghz-framework"><img src="assets/generated/cards/verkada-verkracked-subghz-framework.svg" alt="verkada-verkracked-subghz-framework project card" width="680"></a></p>
 <p align="center"><a href="https://github.com/GainSec/CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara"><img src="assets/generated/cards/cve-2017-16744-and-cve-2017-16748-tridium-niagara.svg" alt="CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara project card" width="680"></a></p>
 <p align="center"><a href="https://github.com/GainSec/flock-safety-falcon-sparrow-alpr-edl-firehose"><img src="assets/generated/cards/flock-safety-falcon-sparrow-alpr-edl-firehose.svg" alt="flock-safety-falcon-sparrow-alpr-edl-firehose project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/verkada-verkracked-bullet-cam-cloud-emulator"><img src="assets/generated/cards/verkada-verkracked-bullet-cam-cloud-emulator.svg" alt="verkada-verkracked-bullet-cam-cloud-emulator project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/VerkEye"><img src="assets/generated/cards/verkeye.svg" alt="VerkEye project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/verkada-verkracked-ambrella-CB62-firmwaredumper"><img src="assets/generated/cards/verkada-verkracked-ambrella-cb62-firmwaredumper.svg" alt="verkada-verkracked-ambrella-CB62-firmwaredumper project card" width="680"></a></p>
 <h4>Vulnerability Disclosures</h4>
 <p align="center"><a href="https://github.com/GainSec/macos-printer-simulator-security-research"><img src="assets/generated/cards/macos-printer-simulator-security-research.svg" alt="macos-printer-simulator-security-research project card" width="680"></a></p>
 <p align="center"><a href="https://github.com/GainSec/AOL-Desktop-Gold-Security-Research"><img src="assets/generated/cards/aol-desktop-gold-security-research.svg" alt="AOL-Desktop-Gold-Security-Research project card" width="680"></a></p>
@@ -368,7 +372,7 @@ flowchart TB
 ```
 
 <details>
-<summary><strong>Vulnerability / Security Research · 16 projects</strong></summary>
+<summary><strong>Vulnerability / Security Research · 19 projects</strong></summary>
 
 ```mermaid
 flowchart TB
@@ -384,16 +388,19 @@ flowchart TB
     S0_0 --> P0_7["verkada-verkracked-subghz-framework"]
     S0_0 --> P0_8["CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara"]
     S0_0 --> P0_9["flock-safety-falcon-sparrow-alpr-edl-firehose"]
+    S0_0 --> P0_10["verkada-verkracked-bullet-cam-cloud-emulator"]
+    S0_0 --> P0_11["VerkEye"]
+    S0_0 --> P0_12["verkada-verkracked-ambrella-CB62-firmwaredumper"]
     ROOT --> S0_1["Vulnerability Disclosures"]
-    S0_1 --> P0_10["macos-printer-simulator-security-research"]
-    S0_1 --> P0_11["AOL-Desktop-Gold-Security-Research"]
+    S0_1 --> P0_13["macos-printer-simulator-security-research"]
+    S0_1 --> P0_14["AOL-Desktop-Gold-Security-Research"]
     ROOT --> S0_2["Automotive + V2X Security"]
-    S0_2 --> P0_12["3rdParty-Carplay-AndroidAuto-Dongle-Security-Research"]
-    S0_2 --> P0_13["Wireless-Attack-Vectors-Against-Automobiles"]
+    S0_2 --> P0_15["3rdParty-Carplay-AndroidAuto-Dongle-Security-Research"]
+    S0_2 --> P0_16["Wireless-Attack-Vectors-Against-Automobiles"]
     ROOT --> S0_3["Hardware + Embedded Security"]
-    S0_3 --> P0_14["Little-Tikes-DreamProjector-Reverse-Engineering"]
+    S0_3 --> P0_17["Little-Tikes-DreamProjector-Reverse-Engineering"]
     ROOT --> S0_4["Research Companion Material"]
-    S0_4 --> P0_15["Phrack-72-Raw-Output-V2X"]
+    S0_4 --> P0_18["Phrack-72-Raw-Output-V2X"]
 ```
 
 </details>
@@ -512,6 +519,9 @@ flowchart TB
 - [verkada-verkracked-subghz-framework](https://github.com/GainSec/verkada-verkracked-subghz-framework) — Sub-GHz interoperability framework for decoding, generating, replaying, and correlating Verkada alarm-hub wireless protocol traffic in authorized labs.
 - [CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara](https://github.com/GainSec/CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara) — Proofs of concept for CVE-2017-16744 and CVE-2017-16748 in Tridium Niagara.
 - [flock-safety-falcon-sparrow-alpr-edl-firehose](https://github.com/GainSec/flock-safety-falcon-sparrow-alpr-edl-firehose) — EDL-mode interaction tooling for Flock Safety Falcon/Sparrow ALPR hardware.
+- [verkada-verkracked-bullet-cam-cloud-emulator](https://github.com/GainSec/verkada-verkracked-bullet-cam-cloud-emulator) — Owner-controlled local cloud emulator for lawfully owned Verkada CB62 cameras, with bounded enrollment, artifacts, and relays.
+- [VerkEye](https://github.com/GainSec/VerkEye) — Evidence-first local runtime for inspecting and executing an owner-extracted Verkada CB62 vision model on macOS and Linux.
+- [verkada-verkracked-ambrella-CB62-firmwaredumper](https://github.com/GainSec/verkada-verkracked-ambrella-CB62-firmwaredumper) — Read-only firmware acquisition and recovery-evidence tooling for lawfully owned or explicitly authorized Verkada CB62 hardware.
 
 #### Vulnerability Disclosures
 - [macos-printer-simulator-security-research](https://github.com/GainSec/macos-printer-simulator-security-research) — Full disclosure and reproduction archive documenting three technical weaknesses in Apple's Printer Simulator.
