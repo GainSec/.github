@@ -38,6 +38,8 @@ Further research, technical write-ups, commentary, and other posts can be found 
 
 The following incomplete list extends the GitHub record with security research, vulnerability disclosures, technical walkthroughs, leadership writing, papers, talks, and media published on [GainSec.com](https://gainsec.com/) or in external publications.
 
+**SectorGov:** [SectorGov](https://sectorgov.com/) is a no-account public directory for discovering government service links by location, service, vendor, and software. The accompanying article documented 7,373 service links when [Government Run OSINT Services](https://gainsec.com/2026/09/17/government-run-osint-services/) was published.
+
 <!-- AUTO:RESEARCH START -->
 <details>
 <summary><strong>Flock Safety Research · 12 publications</strong></summary>
@@ -114,6 +116,32 @@ The following incomplete list extends the GitHub record with security research, 
 - **2023-01-03** — [10 Minutes of Google dorking for Covid Documents](https://gainsec.com/2023/01/03/10-minutes-of-google-dorking-for-covid-documents/) — [Article published in UNREDACTED Magazine, Issue 5 (2023)](https://inteltechniques.com/issues/005.pdf)
 - **2020-09-06** — [OSINT Escapades #1 Government Run People Search](https://gainsec.com/2020/09/06/osint-escapades-1-government-run-people-search/)
 - **2019-09-11** — [Government Run People Search Tools](https://gainsec.com/2019/09/11/government-run-people-search-tools/)
+
+</details>
+
+<details>
+<summary><strong>Project Releases + Engineering · 20 publications</strong></summary>
+
+- **2026-10-19** — [RealHermes, an AR/VR Body, Voice, and Eyes for your Hermes Agent](https://gainsec.com/2026/10/19/71474/) — [RealHermes repository](https://github.com/GainSec/RealHermes)
+- **2026-10-12** — [TreeHouse Defense System – RF + Wireless SIGINT 3D/XR/VR Dashboard with Steam Frame Support](https://gainsec.com/2026/10/12/treehouse-defense-system-rf-wireless-sigint-3d-xr-vr-dashboard-with-steam-frame-support/) — [Treehouse Defense System repository](https://github.com/GainSec/Tree-House-Defense-System-TDS)
+- **2026-04-29** — [Arctic Base](https://gainsec.com/2026/04/29/arctic-base/)
+- **2026-04-26** — [Qwen 3.6 via LMStudio + Openclaw Workaround](https://gainsec.com/2026/04/26/qwen-3-6-via-lmstudio-openclaw-workaround/)
+- **2026-04-26** — [SectorMap Release](https://gainsec.com/2026/04/26/sectormap-release/)
+- **2026-04-16** — [AutoProber – Automated PCB Probing for hardware hackers](https://gainsec.com/2026/04/16/autoprober/)
+- **2025-12-01** — [Introducing LeakScope](https://gainsec.com/2025/12/01/leakscope/)
+- **2025-06-29** — [GainSec in the Middle!](https://gainsec.com/2025/06/29/gainsec-in-the-middle/)
+- **2024-04-11** — [Introducing Sherlock GPT Holmes](https://gainsec.com/2024/04/11/sherlock-chat-gpt-holmes-osint-ai/)
+- **2022-02-21** — [Custom Formula CSV XLS XLSX Injection Wordlist](https://gainsec.com/2022/02/21/formula-csv-xls-xlsx-injection-wordlist/)
+- **2022-02-11** — [OneListForAll added to Treehouse Wordlists!](https://gainsec.com/2022/02/11/onelistforall-rockyou-web-treehouse-wordlists/)
+- **2021-10-06** — [TreeHouse Wordlists Big Update!](https://gainsec.com/2021/10/06/treehouse-wordlists-update/)
+- **2021-07-09** — [Interesting Wordlist Added to TreeHouse Wordlists](https://gainsec.com/2021/07/09/gainsec-treehouse-update/)
+- **2020-10-02** — [Burp Suite Extensions 2020 #1](https://gainsec.com/2020/10/02/burp-suite-extensions-2020/)
+- **2020-06-02** — [OSINT Tool Back from the dead](https://gainsec.com/2020/06/02/osint-tool-back-from-the-dead/)
+- **2020-05-23** — [Project Update: Dorker](https://gainsec.com/2020/05/23/project-update-dorker/)
+- **2020-05-19** — [New Project: Dorker](https://gainsec.com/2020/05/19/new-project-dorker/)
+- **2020-05-15** — [New Wordlist Added to TreeHouse Wordlists!](https://gainsec.com/2020/05/15/new-wordlist-added-to-treehouse-wordlists/)
+- **2020-05-13** — [Monitor when a host pings you Kali Tips #10](https://gainsec.com/2020/05/13/monitor-when-a-host-pings-you-kali-tips-10/)
+- **2020-05-09** — [GoldenNuggets Update!](https://gainsec.com/2020/05/09/goldennuggets-update/)
 
 </details>
 
@@ -204,7 +232,7 @@ Agent-driven target discovery, microscope mapping, safety-monitored CNC motion, 
 <td width="50%" valign="top">
 <p align="center"><a href="https://github.com/GainSec/Tree-House-Defense-System-TDS"><img src="https://raw.githubusercontent.com/GainSec/Tree-House-Defense-System-TDS/main/docs/screenshots/tds-3d-object-detail.png" alt="Treehouse Defense System 3D RF view" width="320"></a></p>
 <h3><a href="https://github.com/GainSec/Tree-House-Defense-System-TDS">Treehouse Defense System</a></h3>
-A self-hosted 3D RF-awareness and presence-intelligence platform joining local Wi-Fi, BLE, ADS-B, rail, IoT, infrastructure, and authorized LTE-lab observations.
+A self-hosted 3D RF-awareness and presence-intelligence platform with Steam Frame/WebXR tabletop AR and life-size VR, joining local Wi-Fi, BLE, ADS-B, rail, IoT, infrastructure, and authorized LTE-lab observations.
 </td>
 </tr>
 <tr>
@@ -322,7 +350,7 @@ A reverse-engineered camera-car dashboard and agent API that gives a human or au
 </details>
 
 <details>
-<summary><strong>Open / Public Source Projects · 17 projects</strong></summary>
+<summary><strong>Open / Public Source Projects · 19 projects</strong></summary>
 
 <h4>Hardware + Embedded</h4>
 <p align="center"><a href="https://github.com/GainSec/AutoProber"><img src="assets/generated/cards/autoprober.svg" alt="AutoProber project card" width="680"></a></p>
@@ -341,8 +369,10 @@ A reverse-engineered camera-car dashboard and agent API that gives a human or au
 <p align="center"><a href="https://github.com/GainSec/BattleReadyArmor-PublicPreview"><img src="assets/generated/cards/battlereadyarmor-publicpreview.svg" alt="BattleReadyArmor-PublicPreview project card" width="680"></a></p>
 <p align="center"><a href="https://github.com/GainSec/GainSec-Local-AI-Stack"><img src="assets/generated/cards/gainsec-local-ai-stack.svg" alt="GainSec-Local-AI-Stack project card" width="680"></a></p>
 <p align="center"><a href="https://github.com/GainSec/MacOS-AppleIntelligence-Harness"><img src="assets/generated/cards/macos-appleintelligence-harness.svg" alt="MacOS-AppleIntelligence-Harness project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/RealHermes"><img src="assets/generated/cards/realhermes.svg" alt="RealHermes project card" width="680"></a></p>
 <h4>Applications + Utilities</h4>
 <p align="center"><a href="https://github.com/GainSec/PineapplePager-Themer"><img src="assets/generated/cards/pineapplepager-themer.svg" alt="PineapplePager-Themer project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/Homarr-Integrations-Widgets"><img src="assets/generated/cards/homarr-integrations-widgets.svg" alt="Homarr-Integrations-Widgets project card" width="680"></a></p>
 <p align="center"><a href="https://github.com/GainSec/unicode-secret-message"><img src="assets/generated/cards/unicode-secret-message.svg" alt="unicode-secret-message project card" width="680"></a></p>
 <h4>Data + Visualization</h4>
 <p align="center"><a href="https://github.com/GainSec/SectorMap"><img src="assets/generated/cards/sectormap.svg" alt="SectorMap project card" width="680"></a></p>
@@ -457,7 +487,7 @@ flowchart TB
 </details>
 
 <details>
-<summary><strong>Open / Public Source Projects · 17 projects</strong></summary>
+<summary><strong>Open / Public Source Projects · 19 projects</strong></summary>
 
 ```mermaid
 flowchart TB
@@ -479,11 +509,13 @@ flowchart TB
     S3_3 --> P3_11["BattleReadyArmor-PublicPreview"]
     S3_3 --> P3_12["GainSec-Local-AI-Stack"]
     S3_3 --> P3_13["MacOS-AppleIntelligence-Harness"]
+    S3_3 --> P3_14["RealHermes"]
     ROOT --> S3_4["Applications + Utilities"]
-    S3_4 --> P3_14["PineapplePager-Themer"]
-    S3_4 --> P3_15["unicode-secret-message"]
+    S3_4 --> P3_15["PineapplePager-Themer"]
+    S3_4 --> P3_16["Homarr-Integrations-Widgets"]
+    S3_4 --> P3_17["unicode-secret-message"]
     ROOT --> S3_5["Data + Visualization"]
-    S3_5 --> P3_16["SectorMap"]
+    S3_5 --> P3_18["SectorMap"]
 ```
 
 </details>
@@ -587,7 +619,7 @@ flowchart TB
 - [Super-Awesome-AI-Driver](https://github.com/GainSec/Super-Awesome-AI-Driver) — Reverse-engineered camera-car dashboard and agent API with video, audio, and motion control.
 
 #### RF + Wireless
-- [Tree-House-Defense-System-TDS](https://github.com/GainSec/Tree-House-Defense-System-TDS) — Self-hosted 3D RF awareness and presence intelligence across Wi-Fi, BLE, ADS-B, rail, IoT, and LTE lab data.
+- [Tree-House-Defense-System-TDS](https://github.com/GainSec/Tree-House-Defense-System-TDS) — Self-hosted 3D/XR RF awareness with Steam Frame WebXR across Wi-Fi, BLE, ADS-B, rail, IoT, and LTE lab data.
 - [M5Stack-Core2-PaxCounter-WiFi-Bluetooth-Monitor](https://github.com/GainSec/M5Stack-Core2-PaxCounter-WiFi-Bluetooth-Monitor) — Nearby Wi-Fi and Bluetooth population monitor for M5Stack Core2.
 
 #### LLM / ML / AI / Agents
@@ -600,9 +632,11 @@ flowchart TB
 - [BattleReadyArmor-PublicPreview](https://github.com/GainSec/BattleReadyArmor-PublicPreview) — Public architecture preview for governed, privacy-preserving agentic assessments.
 - [GainSec-Local-AI-Stack](https://github.com/GainSec/GainSec-Local-AI-Stack) — Scripts, workflows, and notes from local AI-stack prototyping.
 - [MacOS-AppleIntelligence-Harness](https://github.com/GainSec/MacOS-AppleIntelligence-Harness) — Local macOS harness for prompts, pipelines, and consistency experiments with Apple Foundation Models.
+- [RealHermes](https://github.com/GainSec/RealHermes) — Experimental spatial Hermes Agent companion for desktop and WebXR with voice, headset-view vision, and movable document panels.
 
 #### Applications + Utilities
 - [PineapplePager-Themer](https://github.com/GainSec/PineapplePager-Themer) — Visual theme editor and exporter for the Hak5 WiFi Pineapple Pager.
+- [Homarr-Integrations-Widgets](https://github.com/GainSec/Homarr-Integrations-Widgets) — Independent Homarr integrations and widgets for infrastructure, local AI tooling, service health, usage data, and dashboard operations.
 - [unicode-secret-message](https://github.com/GainSec/unicode-secret-message) — Small interface built during research into RTLO, PDF, and other Unicode characters.
 
 #### Data + Visualization
