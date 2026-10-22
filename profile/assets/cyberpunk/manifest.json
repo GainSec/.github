@@ -1,0 +1,510 @@
+{
+  "generator": {
+    "id": "g06",
+    "slug": "cyberpunk",
+    "name": "Night block",
+    "theme": "docs/themes/theme-06/research.md"
+  },
+  "data": {
+    "source": "/private/tmp/claude-501/-Volumes-DevStorage-CURRENT-Projects-profile/8b6d6c8d-0a14-4d9d-a1d3-d81088e9d955/scratchpad/wt/fixtures/profile/gainsec.json",
+    "synthetic": false,
+    "generatedAt": "2026-10-22T22:21:17.411Z"
+  },
+  "config": {
+    "seed": "night-block",
+    "lang": "en",
+    "showSyntheticLabel": true,
+    "finiteLoops": 0,
+    "city": "hk",
+    "subject": "beyond",
+    "select": "recent",
+    "maxBuildings": 10,
+    "rain": "drizzle",
+    "stutter": true,
+    "ticker": false,
+    "categories": [
+      {
+        "label": "Vulnerability / Security Research",
+        "series": []
+      },
+      {
+        "label": "Technical Walkthroughs",
+        "series": [
+          "Technical Walkthroughs"
+        ]
+      },
+      {
+        "label": "Offensive Tooling",
+        "series": [
+          "OSINT Research"
+        ]
+      },
+      {
+        "label": "Open / Public Source Projects",
+        "series": [
+          "Project Releases + Engineering"
+        ]
+      },
+      {
+        "label": "Everything Else",
+        "series": [
+          "Technical Leadership",
+          "Lectures, Papers + Media"
+        ]
+      }
+    ],
+    "fallbackCategory": "Vulnerability / Security Research"
+  },
+  "variants": [
+    {
+      "file": "g06-desktop-dark-animated.svg",
+      "layout": "desktop",
+      "mode": "dark",
+      "motion": "animated",
+      "width": 846,
+      "height": 404,
+      "bytes": 62099,
+      "generateMs": 104.7,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 62099,
+          "elements": 414,
+          "ids": 34,
+          "animations": 7,
+          "filters": 1,
+          "textChars": 633,
+          "embeddedFontBytes": 9009,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g06-desktop-dark-reduced.svg",
+      "layout": "desktop",
+      "mode": "dark",
+      "motion": "reduced",
+      "width": 846,
+      "height": 404,
+      "bytes": 60299,
+      "generateMs": 5.2,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 60299,
+          "elements": 393,
+          "ids": 34,
+          "animations": 1,
+          "filters": 1,
+          "textChars": 633,
+          "embeddedFontBytes": 9009,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g06-desktop-dark-static.svg",
+      "layout": "desktop",
+      "mode": "dark",
+      "motion": "static",
+      "width": 846,
+      "height": 404,
+      "bytes": 60177,
+      "generateMs": 4.3,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 60177,
+          "elements": 392,
+          "ids": 34,
+          "animations": 0,
+          "filters": 1,
+          "textChars": 633,
+          "embeddedFontBytes": 9009,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g06-desktop-light-animated.svg",
+      "layout": "desktop",
+      "mode": "light",
+      "motion": "animated",
+      "width": 846,
+      "height": 404,
+      "bytes": 62099,
+      "generateMs": 4.5,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 62099,
+          "elements": 414,
+          "ids": 34,
+          "animations": 7,
+          "filters": 1,
+          "textChars": 633,
+          "embeddedFontBytes": 9009,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g06-desktop-light-reduced.svg",
+      "layout": "desktop",
+      "mode": "light",
+      "motion": "reduced",
+      "width": 846,
+      "height": 404,
+      "bytes": 60299,
+      "generateMs": 4.3,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 60299,
+          "elements": 393,
+          "ids": 34,
+          "animations": 1,
+          "filters": 1,
+          "textChars": 633,
+          "embeddedFontBytes": 9009,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g06-desktop-light-static.svg",
+      "layout": "desktop",
+      "mode": "light",
+      "motion": "static",
+      "width": 846,
+      "height": 404,
+      "bytes": 60177,
+      "generateMs": 4.3,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 60177,
+          "elements": 392,
+          "ids": 34,
+          "animations": 0,
+          "filters": 1,
+          "textChars": 633,
+          "embeddedFontBytes": 9009,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g06-medium-dark-animated.svg",
+      "layout": "medium",
+      "mode": "dark",
+      "motion": "animated",
+      "width": 590,
+      "height": 340,
+      "bytes": 53411,
+      "generateMs": 4.2,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 53411,
+          "elements": 347,
+          "ids": 31,
+          "animations": 7,
+          "filters": 1,
+          "textChars": 219,
+          "embeddedFontBytes": 9009,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g06-medium-dark-reduced.svg",
+      "layout": "medium",
+      "mode": "dark",
+      "motion": "reduced",
+      "width": 590,
+      "height": 340,
+      "bytes": 51610,
+      "generateMs": 3.9,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 51610,
+          "elements": 326,
+          "ids": 31,
+          "animations": 1,
+          "filters": 1,
+          "textChars": 219,
+          "embeddedFontBytes": 9009,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g06-medium-dark-static.svg",
+      "layout": "medium",
+      "mode": "dark",
+      "motion": "static",
+      "width": 590,
+      "height": 340,
+      "bytes": 51488,
+      "generateMs": 2.8,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 51488,
+          "elements": 325,
+          "ids": 31,
+          "animations": 0,
+          "filters": 1,
+          "textChars": 219,
+          "embeddedFontBytes": 9009,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g06-medium-light-animated.svg",
+      "layout": "medium",
+      "mode": "light",
+      "motion": "animated",
+      "width": 590,
+      "height": 340,
+      "bytes": 53411,
+      "generateMs": 3.1,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 53411,
+          "elements": 347,
+          "ids": 31,
+          "animations": 7,
+          "filters": 1,
+          "textChars": 219,
+          "embeddedFontBytes": 9009,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g06-medium-light-reduced.svg",
+      "layout": "medium",
+      "mode": "light",
+      "motion": "reduced",
+      "width": 590,
+      "height": 340,
+      "bytes": 51610,
+      "generateMs": 2.7,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 51610,
+          "elements": 326,
+          "ids": 31,
+          "animations": 1,
+          "filters": 1,
+          "textChars": 219,
+          "embeddedFontBytes": 9009,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g06-medium-light-static.svg",
+      "layout": "medium",
+      "mode": "light",
+      "motion": "static",
+      "width": 590,
+      "height": 340,
+      "bytes": 51488,
+      "generateMs": 3.2,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 51488,
+          "elements": 325,
+          "ids": 31,
+          "animations": 0,
+          "filters": 1,
+          "textChars": 219,
+          "embeddedFontBytes": 9009,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g06-mobile-dark-animated.svg",
+      "layout": "mobile",
+      "mode": "dark",
+      "motion": "animated",
+      "width": 320,
+      "height": 440,
+      "bytes": 42115,
+      "generateMs": 3.7,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 42115,
+          "elements": 243,
+          "ids": 25,
+          "animations": 6,
+          "filters": 1,
+          "textChars": 151,
+          "embeddedFontBytes": 9009,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g06-mobile-dark-reduced.svg",
+      "layout": "mobile",
+      "mode": "dark",
+      "motion": "reduced",
+      "width": 320,
+      "height": 440,
+      "bytes": 40742,
+      "generateMs": 2.1,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 40742,
+          "elements": 227,
+          "ids": 25,
+          "animations": 1,
+          "filters": 1,
+          "textChars": 151,
+          "embeddedFontBytes": 9009,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g06-mobile-dark-static.svg",
+      "layout": "mobile",
+      "mode": "dark",
+      "motion": "static",
+      "width": 320,
+      "height": 440,
+      "bytes": 40620,
+      "generateMs": 1.9,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 40620,
+          "elements": 226,
+          "ids": 25,
+          "animations": 0,
+          "filters": 1,
+          "textChars": 151,
+          "embeddedFontBytes": 9009,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g06-mobile-light-animated.svg",
+      "layout": "mobile",
+      "mode": "light",
+      "motion": "animated",
+      "width": 320,
+      "height": 440,
+      "bytes": 42115,
+      "generateMs": 1.7,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 42115,
+          "elements": 243,
+          "ids": 25,
+          "animations": 6,
+          "filters": 1,
+          "textChars": 151,
+          "embeddedFontBytes": 9009,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g06-mobile-light-reduced.svg",
+      "layout": "mobile",
+      "mode": "light",
+      "motion": "reduced",
+      "width": 320,
+      "height": 440,
+      "bytes": 40742,
+      "generateMs": 1.7,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 40742,
+          "elements": 227,
+          "ids": 25,
+          "animations": 1,
+          "filters": 1,
+          "textChars": 151,
+          "embeddedFontBytes": 9009,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g06-mobile-light-static.svg",
+      "layout": "mobile",
+      "mode": "light",
+      "motion": "static",
+      "width": 320,
+      "height": 440,
+      "bytes": 40620,
+      "generateMs": 2.2,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 40620,
+          "elements": 226,
+          "ids": 25,
+          "animations": 0,
+          "filters": 1,
+          "textChars": 151,
+          "embeddedFontBytes": 9009,
+          "embeddedRasterBytes": 0
+        }
+      }
+    }
+  ]
+}

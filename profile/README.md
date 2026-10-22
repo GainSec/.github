@@ -1,6 +1,9 @@
-<p align="center">
-  <img src="assets/brand/terminal-hero.svg" alt="GainSec public research terminal — Jon GainSec Gaines, offensive security leader, engineer, and independent researcher" width="720">
-</p>
+<picture>
+  <source media="(max-width: 767px)" srcset="./assets/skate/g04-mobile-dark-animated.svg">
+  <source media="(max-width: 1279px)" srcset="./assets/skate/g04-medium-dark-animated.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skate/g04-desktop-dark-animated.svg">
+  <img src="./assets/skate/g04-desktop-light-animated.svg" width="100%" alt="3D skater landing a line of tricks — kickflip, heelflip, pop shove-it, 360 flip, 50-50 grind — over a DIY concrete wall built from release and milestone months">
+</picture>
 
 <p align="center">
   <a href="#research-projects-with-github-repos">Research Projects</a> ·
@@ -10,13 +13,27 @@
   <a href="#complete-atlas">Complete Atlas</a>
 </p>
 
-**GainSec is the personal handle/brand of Jon “GainSec” Gaines—an offensive security leader, engineer, and independent researcher.** The public archive spans vulnerability research and disclosure; offensive-security tooling; web, software, thick-client, macOS, mobile, and cloud security; hardware, embedded/IoT, RF/wireless, cellular/V2X, physical-security, and surveillance systems; reverse engineering, OSINT, and LLM/ML/AI/agent systems. It also includes open-source applications and utilities, robotics, data visualization, technical walkthroughs, publications, leadership writing, and experimental engineering.
+**GainSec is the personal handle/brand of Jon “GainSec” Gaines—an offensive security leader, engineer, hacker, and independent security researcher.** Currently, he is the Head of Offensive Security @ Anduril Industries, an Adjunct Instructor @ Herkimer College, and the Founder of GainSec.
+
+The public archive spans vulnerability research and disclosure; offensive-security tooling; web, software, thick-client, macOS, mobile, and cloud security; hardware, embedded/IoT, RF/wireless, cellular/V2X, physical-security, and surveillance systems; reverse engineering, OSINT, and LLM/ML/AI/agent systems. It also includes open-source applications and utilities, robotics, data visualization, technical walkthroughs, publications, leadership writing, and experimental engineering.
+
+<sub>All work and projects on this GitHub are his own. Created using his own resources and time. They do not reflect any past or previous employer or client.</sub>
 
 Further research, technical write-ups, commentary, and other posts can be found at [GainSec.com](https://gainsec.com/).
 
 <sub>This page was last updated 10/2026.</sub>
 
 ## Research Projects with GitHub Repos
+
+<picture>
+  <source media="(max-width: 767px)" srcset="./assets/hardware/g02-mobile-dark-animated.svg">
+  <source media="(max-width: 1279px)" srcset="./assets/hardware/g02-medium-dark-animated.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hardware/g02-desktop-dark-animated.svg">
+  <img src="./assets/hardware/g02-desktop-light-animated.svg" width="100%" alt="Printed circuit board of the Research Projects with GitHub Repos: one chip per vendor in a single security research section">
+</picture>
+
+<details>
+<summary><strong>Research projects with GitHub repos — full list</strong></summary>
 
 ### Connected Public Safety and Anti-Crime Technology
 
@@ -34,7 +51,19 @@ Further research, technical write-ups, commentary, and other posts can be found 
 - [AOL Desktop Gold Security Research](https://github.com/GainSec/AOL-Desktop-Gold-Security-Research) — Independent group security research release covering a handful of vulnerabilities found in AOL Desktop Gold.
 - [Little Tikes Dream Machine reverse engineering](https://github.com/GainSec/Little-Tikes-DreamProjector-Reverse-Engineering) — Notes and material from reverse engineering the Little Tikes Dream Machine.
 
+</details>
+
 ### Beyond GitHub
+
+<picture>
+  <source media="(max-width: 767px)" srcset="./assets/cyberpunk/g06-mobile-dark-animated.svg">
+  <source media="(max-width: 1279px)" srcset="./assets/cyberpunk/g06-medium-dark-animated.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cyberpunk/g06-desktop-dark-animated.svg">
+  <img src="./assets/cyberpunk/g06-desktop-light-animated.svg" width="100%" alt="Night-time city block where each building is a publication series from gainsec.com, with item counts and a ticker of publications, talks and disclosures">
+</picture>
+
+<details>
+<summary><strong>Beyond GitHub — publications, talks and media</strong></summary>
 
 The following incomplete list extends the GitHub record with security research, vulnerability disclosures, technical walkthroughs, leadership writing, papers, talks, and media published on [GainSec.com](https://gainsec.com/) or in external publications.
 
@@ -220,7 +249,19 @@ The following incomplete list extends the GitHub record with security research, 
 </details>
 <!-- AUTO:RESEARCH END -->
 
+</details>
+
 ## Featured Projects
+
+<picture>
+  <source media="(max-width: 767px)" srcset="./assets/knd/g08-mobile-dark-animated.svg">
+  <source media="(max-width: 1279px)" srcset="./assets/knd/g08-medium-dark-animated.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/knd/g08-desktop-dark-animated.svg">
+  <img src="./assets/knd/g08-desktop-light-animated.svg" width="100%" alt="Mission dossier: AutoProber operation card with its backronym, rotating 2x4-technology wireframe devices for featured projects, and a mission log">
+</picture>
+
+<details>
+<summary><strong>Featured projects — screenshots and descriptions</strong></summary>
 
 <table>
 <tr>
@@ -242,7 +283,7 @@ A self-hosted 3D RF-awareness and presence-intelligence platform with Steam Fram
 An AI-augmented security assessment framework built around operator authority, scope controls, anonymization, explicit approvals, evidence, and governed reporting.
 </td>
 <td width="50%" valign="top">
-<p align="center"><a href="https://github.com/GainSec/AgentReadyArmor-Teaser"><img src="assets/projects/ara-agent-ready-armor.png" alt="ARA Agent Ready Armor — containment for what agents do and provenance for what they produce" width="320"></a></p>
+<p align="center"><a href="https://github.com/GainSec/AgentReadyArmor-Teaser"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/projects/ara-agent-ready-armor.png" alt="ARA Agent Ready Armor — containment for what agents do and provenance for what they produce" width="320"></a></p>
 <h3><a href="https://github.com/GainSec/AgentReadyArmor-Teaser">AgentReadyArmor — Teaser</a></h3>
 A public preview of an agent runtime substrate focused on capability containment, evidence provenance, and auditable operator control.
 </td>
@@ -273,36 +314,41 @@ A reverse-engineered camera-car dashboard and agent API that gives a human or au
 </tr>
 </table>
 
+</details>
+
 ## Project Card Archive
+
+<details>
+<summary><strong>All project cards</strong></summary>
 
 <!-- AUTO:CARDS START -->
 <details>
 <summary><strong>Vulnerability / Security Research · 19 projects</strong></summary>
 
 <h4>Connected Public Safety and Anti-Crime Technology</h4>
-<p align="center"><a href="https://github.com/GainSec/anti-crime-ecosystem-research"><img src="assets/generated/cards/anti-crime-ecosystem-research.svg" alt="anti-crime-ecosystem-research project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/BirdShot"><img src="assets/generated/cards/birdshot.svg" alt="BirdShot project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/Flock-Safety-Trap-Shooter-Sniffer-Alarm"><img src="assets/generated/cards/flock-safety-trap-shooter-sniffer-alarm.svg" alt="Flock-Safety-Trap-Shooter-Sniffer-Alarm project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/onvif-enum"><img src="assets/generated/cards/onvif-enum.svg" alt="onvif-enum project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/Uniview-LAPI-Research-Toolkit"><img src="assets/generated/cards/uniview-lapi-research-toolkit.svg" alt="Uniview-LAPI-Research-Toolkit project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/DigitalAlly-ThermoVu-Uniview-Security-Research"><img src="assets/generated/cards/digitalally-thermovu-uniview-security-research.svg" alt="DigitalAlly-ThermoVu-Uniview-Security-Research project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/verkada-verkracked-alarm-hub-local-framework"><img src="assets/generated/cards/verkada-verkracked-alarm-hub-local-framework.svg" alt="verkada-verkracked-alarm-hub-local-framework project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/verkada-verkracked-subghz-framework"><img src="assets/generated/cards/verkada-verkracked-subghz-framework.svg" alt="verkada-verkracked-subghz-framework project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara"><img src="assets/generated/cards/cve-2017-16744-and-cve-2017-16748-tridium-niagara.svg" alt="CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/flock-safety-falcon-sparrow-alpr-edl-firehose"><img src="assets/generated/cards/flock-safety-falcon-sparrow-alpr-edl-firehose.svg" alt="flock-safety-falcon-sparrow-alpr-edl-firehose project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/verkada-verkracked-bullet-cam-cloud-emulator"><img src="assets/generated/cards/verkada-verkracked-bullet-cam-cloud-emulator.svg" alt="verkada-verkracked-bullet-cam-cloud-emulator project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/VerkEye"><img src="assets/generated/cards/verkeye.svg" alt="VerkEye project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/verkada-verkracked-ambrella-CB62-firmwaredumper"><img src="assets/generated/cards/verkada-verkracked-ambrella-cb62-firmwaredumper.svg" alt="verkada-verkracked-ambrella-CB62-firmwaredumper project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/anti-crime-ecosystem-research"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/anti-crime-ecosystem-research.svg" alt="anti-crime-ecosystem-research project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/BirdShot"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/birdshot.svg" alt="BirdShot project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/Flock-Safety-Trap-Shooter-Sniffer-Alarm"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/flock-safety-trap-shooter-sniffer-alarm.svg" alt="Flock-Safety-Trap-Shooter-Sniffer-Alarm project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/onvif-enum"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/onvif-enum.svg" alt="onvif-enum project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/Uniview-LAPI-Research-Toolkit"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/uniview-lapi-research-toolkit.svg" alt="Uniview-LAPI-Research-Toolkit project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/DigitalAlly-ThermoVu-Uniview-Security-Research"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/digitalally-thermovu-uniview-security-research.svg" alt="DigitalAlly-ThermoVu-Uniview-Security-Research project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/verkada-verkracked-alarm-hub-local-framework"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/verkada-verkracked-alarm-hub-local-framework.svg" alt="verkada-verkracked-alarm-hub-local-framework project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/verkada-verkracked-subghz-framework"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/verkada-verkracked-subghz-framework.svg" alt="verkada-verkracked-subghz-framework project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/cve-2017-16744-and-cve-2017-16748-tridium-niagara.svg" alt="CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/flock-safety-falcon-sparrow-alpr-edl-firehose"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/flock-safety-falcon-sparrow-alpr-edl-firehose.svg" alt="flock-safety-falcon-sparrow-alpr-edl-firehose project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/verkada-verkracked-bullet-cam-cloud-emulator"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/verkada-verkracked-bullet-cam-cloud-emulator.svg" alt="verkada-verkracked-bullet-cam-cloud-emulator project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/VerkEye"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/verkeye.svg" alt="VerkEye project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/verkada-verkracked-ambrella-CB62-firmwaredumper"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/verkada-verkracked-ambrella-cb62-firmwaredumper.svg" alt="verkada-verkracked-ambrella-CB62-firmwaredumper project card" width="680"></a></p>
 <h4>Vulnerability Disclosures</h4>
-<p align="center"><a href="https://github.com/GainSec/macos-printer-simulator-security-research"><img src="assets/generated/cards/macos-printer-simulator-security-research.svg" alt="macos-printer-simulator-security-research project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/AOL-Desktop-Gold-Security-Research"><img src="assets/generated/cards/aol-desktop-gold-security-research.svg" alt="AOL-Desktop-Gold-Security-Research project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/macos-printer-simulator-security-research"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/macos-printer-simulator-security-research.svg" alt="macos-printer-simulator-security-research project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/AOL-Desktop-Gold-Security-Research"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/aol-desktop-gold-security-research.svg" alt="AOL-Desktop-Gold-Security-Research project card" width="680"></a></p>
 <h4>Automotive + V2X Security</h4>
-<p align="center"><a href="https://github.com/GainSec/3rdParty-Carplay-AndroidAuto-Dongle-Security-Research"><img src="assets/generated/cards/3rdparty-carplay-androidauto-dongle-security-research.svg" alt="3rdParty-Carplay-AndroidAuto-Dongle-Security-Research project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/Wireless-Attack-Vectors-Against-Automobiles"><img src="assets/generated/cards/wireless-attack-vectors-against-automobiles.svg" alt="Wireless-Attack-Vectors-Against-Automobiles project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/3rdParty-Carplay-AndroidAuto-Dongle-Security-Research"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/3rdparty-carplay-androidauto-dongle-security-research.svg" alt="3rdParty-Carplay-AndroidAuto-Dongle-Security-Research project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/Wireless-Attack-Vectors-Against-Automobiles"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/wireless-attack-vectors-against-automobiles.svg" alt="Wireless-Attack-Vectors-Against-Automobiles project card" width="680"></a></p>
 <h4>Hardware + Embedded Security</h4>
-<p align="center"><a href="https://github.com/GainSec/Little-Tikes-DreamProjector-Reverse-Engineering"><img src="assets/generated/cards/little-tikes-dreamprojector-reverse-engineering.svg" alt="Little-Tikes-DreamProjector-Reverse-Engineering project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/Little-Tikes-DreamProjector-Reverse-Engineering"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/little-tikes-dreamprojector-reverse-engineering.svg" alt="Little-Tikes-DreamProjector-Reverse-Engineering project card" width="680"></a></p>
 <h4>Research Companion Material</h4>
-<p align="center"><a href="https://github.com/GainSec/Phrack-72-Raw-Output-V2X"><img src="assets/generated/cards/phrack-72-raw-output-v2x.svg" alt="Phrack-72-Raw-Output-V2X project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/Phrack-72-Raw-Output-V2X"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/phrack-72-raw-output-v2x.svg" alt="Phrack-72-Raw-Output-V2X project card" width="680"></a></p>
 
 </details>
 
@@ -310,13 +356,13 @@ A reverse-engineered camera-car dashboard and agent API that gives a human or au
 <summary><strong>Technical Walkthroughs · 5 projects</strong></summary>
 
 <h4>Tutorials + Build Guides</h4>
-<p align="center"><a href="https://gist.github.com/J-GainSec/abc563d2bc0063530711e4342edf7537"><img src="assets/generated/cards/qwen-3-6-tool-call-fix.svg" alt="Qwen 3.6 Tool-Call Fix project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/M5NanoC6-Zigbee-Sniffer"><img src="assets/generated/cards/m5nanoc6-zigbee-sniffer.svg" alt="M5NanoC6-Zigbee-Sniffer project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/CloudGoatTutorial"><img src="assets/generated/cards/cloudgoattutorial.svg" alt="CloudGoatTutorial project card" width="680"></a></p>
+<p align="center"><a href="https://gist.github.com/J-GainSec/abc563d2bc0063530711e4342edf7537"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/qwen-3-6-tool-call-fix.svg" alt="Qwen 3.6 Tool-Call Fix project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/M5NanoC6-Zigbee-Sniffer"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/m5nanoc6-zigbee-sniffer.svg" alt="M5NanoC6-Zigbee-Sniffer project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/CloudGoatTutorial"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/cloudgoattutorial.svg" alt="CloudGoatTutorial project card" width="680"></a></p>
 <h4>Lectures + Educational Material</h4>
-<p align="center"><a href="https://github.com/GainSec/Silk-Road-Lecture"><img src="assets/generated/cards/silk-road-lecture.svg" alt="Silk-Road-Lecture project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/Silk-Road-Lecture"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/silk-road-lecture.svg" alt="Silk-Road-Lecture project card" width="680"></a></p>
 <h4>Workflow Guides</h4>
-<p align="center"><a href="https://github.com/GainSec/n8n-workflow-whisper-server"><img src="assets/generated/cards/n8n-workflow-whisper-server.svg" alt="n8n-workflow-whisper-server project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/n8n-workflow-whisper-server"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/n8n-workflow-whisper-server.svg" alt="n8n-workflow-whisper-server project card" width="680"></a></p>
 
 </details>
 
@@ -324,28 +370,28 @@ A reverse-engineered camera-car dashboard and agent API that gives a human or au
 <summary><strong>Offensive Tooling · 16 projects</strong></summary>
 
 <h4>Fuzzing + Adversarial Testing</h4>
-<p align="center"><a href="https://github.com/pragma-org/dwarf"><img src="assets/generated/cards/dwarf.svg" alt="DWARF project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/pragma-org/dwarf"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/dwarf.svg" alt="DWARF project card" width="680"></a></p>
 <h4>Reconnaissance + Enumeration</h4>
-<p align="center"><a href="https://github.com/GainSec/crt.sh-OSX"><img src="assets/generated/cards/crt-sh-osx.svg" alt="crt.sh-OSX project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/crt.sh-OSX"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/crt-sh-osx.svg" alt="crt.sh-OSX project card" width="680"></a></p>
 <h4>OSINT</h4>
-<p align="center"><a href="https://github.com/GainSec/LeakScope"><img src="assets/generated/cards/leakscope.svg" alt="LeakScope project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/Dorker"><img src="assets/generated/cards/dorker.svg" alt="Dorker project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/FOSINT"><img src="assets/generated/cards/fosint.svg" alt="FOSINT project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/Base-Google-Dorks"><img src="assets/generated/cards/base-google-dorks.svg" alt="Base-Google-Dorks project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/LeakScope"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/leakscope.svg" alt="LeakScope project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/Dorker"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/dorker.svg" alt="Dorker project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/FOSINT"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/fosint.svg" alt="FOSINT project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/Base-Google-Dorks"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/base-google-dorks.svg" alt="Base-Google-Dorks project card" width="680"></a></p>
 <h4>Assessment Workflow</h4>
-<p align="center"><a href="https://github.com/GainSec/GoldenNuggets-1"><img src="assets/generated/cards/goldennuggets-1.svg" alt="GoldenNuggets-1 project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/TreeHouse-Wordlists"><img src="assets/generated/cards/treehouse-wordlists.svg" alt="TreeHouse-Wordlists project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/Hackers-LunchBox"><img src="assets/generated/cards/hackers-lunchbox.svg" alt="Hackers-LunchBox project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/Mac-OSX-Application-Fingerprint-And-Security-Tool"><img src="assets/generated/cards/mac-osx-application-fingerprint-and-security-tool.svg" alt="Mac-OSX-Application-Fingerprint-And-Security-Tool project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/Quick-Engagement-Directory-Maker"><img src="assets/generated/cards/quick-engagement-directory-maker.svg" alt="Quick-Engagement-Directory-Maker project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/GoldenNuggets-1"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/goldennuggets-1.svg" alt="GoldenNuggets-1 project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/TreeHouse-Wordlists"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/treehouse-wordlists.svg" alt="TreeHouse-Wordlists project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/Hackers-LunchBox"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/hackers-lunchbox.svg" alt="Hackers-LunchBox project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/Mac-OSX-Application-Fingerprint-And-Security-Tool"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/mac-osx-application-fingerprint-and-security-tool.svg" alt="Mac-OSX-Application-Fingerprint-And-Security-Tool project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/Quick-Engagement-Directory-Maker"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/quick-engagement-directory-maker.svg" alt="Quick-Engagement-Directory-Maker project card" width="680"></a></p>
 <h4>Wireless + Device Tooling</h4>
-<p align="center"><a href="https://github.com/GainSec/gainsec-in-the-middle"><img src="assets/generated/cards/gainsec-in-the-middle.svg" alt="gainsec-in-the-middle project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/Weaponized-Mousejack-Keysniff"><img src="assets/generated/cards/weaponized-mousejack-keysniff.svg" alt="Weaponized-Mousejack-Keysniff project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/gainsec-in-the-middle"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/gainsec-in-the-middle.svg" alt="gainsec-in-the-middle project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/Weaponized-Mousejack-Keysniff"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/weaponized-mousejack-keysniff.svg" alt="Weaponized-Mousejack-Keysniff project card" width="680"></a></p>
 <h4>Payload + Bypass Research</h4>
-<p align="center"><a href="https://github.com/GainSec/RTLOify"><img src="assets/generated/cards/rtloify.svg" alt="RTLOify project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/RTLOify"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/rtloify.svg" alt="RTLOify project card" width="680"></a></p>
 <h4>Legacy Tooling</h4>
-<p align="center"><a href="https://github.com/GainSec/vncpwn"><img src="assets/generated/cards/vncpwn.svg" alt="vncpwn project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/LeakLooker-X---2022"><img src="assets/generated/cards/leaklooker-x-2022.svg" alt="LeakLooker-X---2022 project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/vncpwn"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/vncpwn.svg" alt="vncpwn project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/LeakLooker-X---2022"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/leaklooker-x-2022.svg" alt="LeakLooker-X---2022 project card" width="680"></a></p>
 
 </details>
 
@@ -353,29 +399,29 @@ A reverse-engineered camera-car dashboard and agent API that gives a human or au
 <summary><strong>Open / Public Source Projects · 19 projects</strong></summary>
 
 <h4>Hardware + Embedded</h4>
-<p align="center"><a href="https://github.com/GainSec/AutoProber"><img src="assets/generated/cards/autoprober.svg" alt="AutoProber project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/RapidPower-RoboDog"><img src="assets/generated/cards/rapidpower-robodog.svg" alt="RapidPower-RoboDog project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/Super-Awesome-AI-Driver"><img src="assets/generated/cards/super-awesome-ai-driver.svg" alt="Super-Awesome-AI-Driver project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/AutoProber"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/autoprober.svg" alt="AutoProber project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/RapidPower-RoboDog"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/rapidpower-robodog.svg" alt="RapidPower-RoboDog project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/Super-Awesome-AI-Driver"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/super-awesome-ai-driver.svg" alt="Super-Awesome-AI-Driver project card" width="680"></a></p>
 <h4>RF + Wireless</h4>
-<p align="center"><a href="https://github.com/GainSec/Tree-House-Defense-System-TDS"><img src="assets/generated/cards/tree-house-defense-system-tds.svg" alt="Tree-House-Defense-System-TDS project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/M5Stack-Core2-PaxCounter-WiFi-Bluetooth-Monitor"><img src="assets/generated/cards/m5stack-core2-paxcounter-wifi-bluetooth-monitor.svg" alt="M5Stack-Core2-PaxCounter-WiFi-Bluetooth-Monitor project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/Tree-House-Defense-System-TDS"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/tree-house-defense-system-tds.svg" alt="Tree-House-Defense-System-TDS project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/M5Stack-Core2-PaxCounter-WiFi-Bluetooth-Monitor"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/m5stack-core2-paxcounter-wifi-bluetooth-monitor.svg" alt="M5Stack-Core2-PaxCounter-WiFi-Bluetooth-Monitor project card" width="680"></a></p>
 <h4>LLM / ML / AI / Agents</h4>
-<p align="center"><a href="https://github.com/GainSec/ArcticBase"><img src="assets/generated/cards/arcticbase.svg" alt="ArcticBase project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/BattleReadyArmor-Slim"><img src="assets/generated/cards/battlereadyarmor-slim.svg" alt="BattleReadyArmor-Slim project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/battlereadyarmor-pilot"><img src="assets/generated/cards/battlereadyarmor-pilot.svg" alt="battlereadyarmor-pilot project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/MacOS-ImagePlayground-Improved"><img src="assets/generated/cards/macos-imageplayground-improved.svg" alt="MacOS-ImagePlayground-Improved project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/AgentReadyArmor-Teaser"><img src="assets/generated/cards/agentreadyarmor-teaser.svg" alt="AgentReadyArmor-Teaser project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/tensorflow-generic-harness"><img src="assets/generated/cards/tensorflow-generic-harness.svg" alt="tensorflow-generic-harness project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/BattleReadyArmor-PublicPreview"><img src="assets/generated/cards/battlereadyarmor-publicpreview.svg" alt="BattleReadyArmor-PublicPreview project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/GainSec-Local-AI-Stack"><img src="assets/generated/cards/gainsec-local-ai-stack.svg" alt="GainSec-Local-AI-Stack project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/MacOS-AppleIntelligence-Harness"><img src="assets/generated/cards/macos-appleintelligence-harness.svg" alt="MacOS-AppleIntelligence-Harness project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/RealHermes"><img src="assets/generated/cards/realhermes.svg" alt="RealHermes project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/ArcticBase"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/arcticbase.svg" alt="ArcticBase project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/BattleReadyArmor-Slim"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/battlereadyarmor-slim.svg" alt="BattleReadyArmor-Slim project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/battlereadyarmor-pilot"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/battlereadyarmor-pilot.svg" alt="battlereadyarmor-pilot project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/MacOS-ImagePlayground-Improved"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/macos-imageplayground-improved.svg" alt="MacOS-ImagePlayground-Improved project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/AgentReadyArmor-Teaser"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/agentreadyarmor-teaser.svg" alt="AgentReadyArmor-Teaser project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/tensorflow-generic-harness"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/tensorflow-generic-harness.svg" alt="tensorflow-generic-harness project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/BattleReadyArmor-PublicPreview"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/battlereadyarmor-publicpreview.svg" alt="BattleReadyArmor-PublicPreview project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/GainSec-Local-AI-Stack"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/gainsec-local-ai-stack.svg" alt="GainSec-Local-AI-Stack project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/MacOS-AppleIntelligence-Harness"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/macos-appleintelligence-harness.svg" alt="MacOS-AppleIntelligence-Harness project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/RealHermes"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/realhermes.svg" alt="RealHermes project card" width="680"></a></p>
 <h4>Applications + Utilities</h4>
-<p align="center"><a href="https://github.com/GainSec/PineapplePager-Themer"><img src="assets/generated/cards/pineapplepager-themer.svg" alt="PineapplePager-Themer project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/Homarr-Integrations-Widgets"><img src="assets/generated/cards/homarr-integrations-widgets.svg" alt="Homarr-Integrations-Widgets project card" width="680"></a></p>
-<p align="center"><a href="https://github.com/GainSec/unicode-secret-message"><img src="assets/generated/cards/unicode-secret-message.svg" alt="unicode-secret-message project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/PineapplePager-Themer"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/pineapplepager-themer.svg" alt="PineapplePager-Themer project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/Homarr-Integrations-Widgets"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/homarr-integrations-widgets.svg" alt="Homarr-Integrations-Widgets project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/unicode-secret-message"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/unicode-secret-message.svg" alt="unicode-secret-message project card" width="680"></a></p>
 <h4>Data + Visualization</h4>
-<p align="center"><a href="https://github.com/GainSec/SectorMap"><img src="assets/generated/cards/sectormap.svg" alt="SectorMap project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/SectorMap"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/sectormap.svg" alt="SectorMap project card" width="680"></a></p>
 
 </details>
 
@@ -383,12 +429,24 @@ A reverse-engineered camera-car dashboard and agent API that gives a human or au
 <summary><strong>Everything Else · 1 project</strong></summary>
 
 <h4>Experiments</h4>
-<p align="center"><a href="https://github.com/GainSec/IG-Clone-Tracker"><img src="assets/generated/cards/ig-clone-tracker.svg" alt="IG-Clone-Tracker project card" width="680"></a></p>
+<p align="center"><a href="https://github.com/GainSec/IG-Clone-Tracker"><img src="https://raw.githubusercontent.com/GainSec/.github/main/profile/assets/generated/cards/ig-clone-tracker.svg" alt="IG-Clone-Tracker project card" width="680"></a></p>
 
 </details>
 <!-- AUTO:CARDS END -->
 
+</details>
+
 ## Project Constellation
+
+<picture>
+  <source media="(max-width: 767px)" srcset="./assets/threed/g09-mobile-dark-animated.svg">
+  <source media="(max-width: 1279px)" srcset="./assets/threed/g09-medium-dark-animated.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/threed/g09-desktop-dark-animated.svg">
+  <img src="./assets/threed/g09-desktop-light-animated.svg" width="100%" alt="Isometric turntable of the project constellation: five category towers stacked from their subcategories, height by number of projects">
+</picture>
+
+<details>
+<summary><strong>Project constellation — diagrams</strong></summary>
 
 <!-- AUTO:CONSTELLATION START -->
 ```mermaid
@@ -532,6 +590,8 @@ flowchart TB
 
 </details>
 <!-- AUTO:CONSTELLATION END -->
+
+</details>
 
 ## Complete Atlas
 

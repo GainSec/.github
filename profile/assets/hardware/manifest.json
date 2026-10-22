@@ -1,0 +1,1094 @@
+{
+  "generator": {
+    "id": "g02",
+    "slug": "hardware",
+    "name": "The profile is a board",
+    "theme": "docs/themes/theme-02/research.md"
+  },
+  "data": {
+    "source": "/private/tmp/claude-501/-Volumes-DevStorage-CURRENT-Projects-profile/8b6d6c8d-0a14-4d9d-a1d3-d81088e9d955/scratchpad/wt/fixtures/profile/gainsec.json",
+    "synthetic": false,
+    "generatedAt": "2026-10-22T22:21:17.411Z"
+  },
+  "config": {
+    "seed": "svg-lab-hardware",
+    "lang": "en",
+    "showSyntheticLabel": true,
+    "finiteLoops": 0,
+    "mask": "green",
+    "finish": "enig",
+    "rev": "A",
+    "maxChips": 9,
+    "oshw": false,
+    "badge": false,
+    "instruments": true,
+    "notFitted": false,
+    "testPoints": [
+      "GND",
+      "RX",
+      "TX"
+    ],
+    "dateCode": "1337",
+    "zones": [
+      {
+        "label": "PUBLIC SAFETY/ANTI-CRIME",
+        "repos": [
+          "anti-crime-ecosystem-research",
+          "BirdShot",
+          "Flock-Safety-Trap-Shooter-Sniffer-Alarm",
+          "flock-safety-falcon-sparrow-alpr-edl-firehose",
+          "verkada-verkracked-alarm-hub-local-framework",
+          "verkada-verkracked-subghz-framework",
+          "verkada-verkracked-bullet-cam-cloud-emulator",
+          "VerkEye",
+          "verkada-verkracked-ambrella-CB62-firmwaredumper",
+          "DigitalAlly-ThermoVu-Uniview-Security-Research",
+          "Uniview-LAPI-Research-Toolkit",
+          "onvif-enum",
+          "tensorflow-generic-harness",
+          "CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara",
+          "Phrack-72-Raw-Output-V2X"
+        ]
+      },
+      {
+        "label": "OTHER SECURITY RESEARCH",
+        "repos": [
+          "macos-printer-simulator-security-research",
+          "3rdParty-Carplay-AndroidAuto-Dongle-Security-Research",
+          "AOL-Desktop-Gold-Security-Research",
+          "Little-Tikes-DreamProjector-Reverse-Engineering"
+        ]
+      }
+    ],
+    "vendors": [
+      {
+        "name": "Flock Safety",
+        "zone": "SECURITY RESEARCH"
+      },
+      {
+        "name": "Verkada",
+        "zone": "SECURITY RESEARCH"
+      },
+      {
+        "name": "Digital Ally",
+        "zone": "SECURITY RESEARCH"
+      },
+      {
+        "name": "ThermoVu",
+        "zone": "SECURITY RESEARCH"
+      },
+      {
+        "name": "Uniview",
+        "zone": "SECURITY RESEARCH"
+      },
+      {
+        "name": "Tridium Niagara",
+        "zone": "SECURITY RESEARCH"
+      },
+      {
+        "name": "Kapsch TrafficCom",
+        "zone": "SECURITY RESEARCH",
+        "match": [
+          "V2X"
+        ]
+      },
+      {
+        "name": "MacOS",
+        "zone": "SECURITY RESEARCH"
+      },
+      {
+        "name": "AutoPro",
+        "zone": "SECURITY RESEARCH"
+      },
+      {
+        "name": "Mayton",
+        "zone": "SECURITY RESEARCH"
+      },
+      {
+        "name": "AOL",
+        "zone": "SECURITY RESEARCH"
+      },
+      {
+        "name": "Little Tikes",
+        "zone": "SECURITY RESEARCH"
+      }
+    ],
+    "bullets": [
+      {
+        "text": "- Flock Safety Security Vulnerabilities: Examining the Security Posture of an Anti-Crime Ecosystem is a versioned whitepaper and disclosure archive covering >50 vulnerabilities I found in Flock Safety's gunshot detection, license-plate reader, and compute hardware, with defender guidance and repository-maintained finding/CVE accounting.",
+        "repos": [
+          "anti-crime-ecosystem-research"
+        ]
+      },
+      {
+        "text": "- Flock Safety Offensive Security Tooling: BirdShot is an offline-first offensive framework for authorized Flock Safety security assessments and penetration testing; Trap Shooter / Sniffer / Alarm detects nearby Flock-related Wi-Fi activity; and the Falcon/Sparrow EDL firehose provides EDL-mode interaction tooling for researched ALPR hardware.",
+        "repos": [
+          "BirdShot",
+          "Flock-Safety-Trap-Shooter-Sniffer-Alarm",
+          "flock-safety-falcon-sparrow-alpr-edl-firehose"
+        ]
+      },
+      {
+        "text": "- Verkada Security Vulnerabilities: Verkracked is an ongoing independent security research project examining owned Verkada hardware. Public releases currently include a local cloud framework for Verkada alarm hubs, a Sub-GHz interoperability framework, a CB62 local cloud emulator, VerkEye—an evidence-first local runtime for an owner-extracted CB62 vision model—and read-only firmware-acquisition tooling for owned or explicitly authorized CB62 hardware. Parts 1–3 are scheduled for public disclosure on December 5, 2026.",
+        "repos": [
+          "verkada-verkracked-alarm-hub-local-framework",
+          "verkada-verkracked-subghz-framework",
+          "verkada-verkracked-bullet-cam-cloud-emulator",
+          "VerkEye",
+          "verkada-verkracked-ambrella-CB62-firmwaredumper"
+        ]
+      },
+      {
+        "text": "- Digital Ally / Uniview: the ThermoVu / Uniview security research is accompanied by the Uniview LAPI Research Toolkit, ONVIF enumeration, and the TensorFlow generic harness used for OEM-style model-pipeline replay.",
+        "repos": [
+          "DigitalAlly-ThermoVu-Uniview-Security-Research",
+          "Uniview-LAPI-Research-Toolkit",
+          "onvif-enum",
+          "tensorflow-generic-harness"
+        ]
+      },
+      {
+        "text": "- Connected infrastructure: Tridium Niagara CVE PoCs preserve proofs of concept for CVE-2017-16744 and CVE-2017-16748.",
+        "repos": [
+          "CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara"
+        ]
+      },
+      {
+        "text": "- Vehicle and V2X material: Phrack 72 V2X companion artifacts preserve raw output and logs accompanying my paper that was published in Phrack 72.",
+        "repos": [
+          "Phrack-72-Raw-Output-V2X"
+        ]
+      },
+      {
+        "text": "- macOS Printer Simulator Security Research — Public disclosure documenting three validated technical weaknesses with reproduction source, evidence, current Low/Low/Informational ratings, and Apple’s recorded disposition.",
+        "repos": [
+          "macos-printer-simulator-security-research"
+        ]
+      },
+      {
+        "text": "- AutoPro / Mayton CarPlay adapter research — Public wireless CarPlay adapter analysis, findings, evidence, source tools, and the first C2 for aftermarket Android Auto / Apple CarPlay dongles.",
+        "repos": [
+          "3rdParty-Carplay-AndroidAuto-Dongle-Security-Research"
+        ]
+      },
+      {
+        "text": "- AOL Desktop Gold Security Research — Independent group security research release covering a handful of vulnerabilities found in AOL Desktop Gold.",
+        "repos": [
+          "AOL-Desktop-Gold-Security-Research"
+        ]
+      },
+      {
+        "text": "- Little Tikes Dream Machine reverse engineering — Notes and material from reverse engineering the Little Tikes Dream Machine.",
+        "repos": [
+          "Little-Tikes-DreamProjector-Reverse-Engineering"
+        ]
+      },
+      {
+        "text": "- 2026-09-17 — Bird Hunting Season: Molting",
+        "repos": []
+      },
+      {
+        "text": "- 2026-08-09 — Bird Hunting Season at Def Con 34 — Companion PDF for my DEF CON 34 Main Stage talk, covering 55 vulnerabilities I found in Flock Safety’s hardware ecosystem.",
+        "repos": []
+      },
+      {
+        "text": "- 2026-01-09 — Finding 67 Flock Safety Live PTZ Camera/LPR Feeds and Debug Web Interfaces accidentally exposed without authentication to the internet",
+        "repos": []
+      },
+      {
+        "text": "- 2025-11-12 — BirdEye",
+        "repos": []
+      },
+      {
+        "text": "- 2025-11-05 — Formalizing my Flock Safety Security Research.",
+        "repos": []
+      },
+      {
+        "text": "- 2025-09-27 — Button Presses to Wireless RCE: Shell on Flock Safety’s License Plate Cameras Over Wi-Fi",
+        "repos": []
+      },
+      {
+        "text": "- 2025-09-27 — Fly-By – Device 2: The Falcon/Sparrow – Gated Wireless RCE, Camera Feed, DoS, Information Disclosure and More",
+        "repos": []
+      },
+      {
+        "text": "- 2025-09-19 — Root from the Coop – Device 3: Root Shell on Flock Safety’s Picard/Bravo Compute Box",
+        "repos": []
+      },
+      {
+        "text": "- 2025-06-30 — Trap Shooter – Flock Safety Sniffer &amp; Alarm",
+        "repos": []
+      },
+      {
+        "text": "- 2025-06-19 — Grounded Flight – Device 2: Root Shell on Flock Safety’s Falcon/Sparrow Automated License Plate Reader",
+        "repos": []
+      },
+      {
+        "text": "- 2025-06-19 — Plucked and Rooted – Device 1: Debug Shell on Flock Safety’s Raven Gunshot Detection System",
+        "repos": []
+      },
+      {
+        "text": "- 2025-06-19 — Bird Hunting Season – Security Research on Flock Safety’s Anti-Crime Systems",
+        "repos": []
+      },
+      {
+        "text": "- 2026-10-04 — Verkracked Part 8 – VerkEye — VerkEye repository",
+        "repos": [
+          "VerkEye"
+        ]
+      },
+      {
+        "text": "- 2026-09-06 — Verkracked Parts 4 &amp; 5 – Local Cloud and Sub-GHz Frameworks for Verkada Alarm Hubs",
+        "repos": []
+      },
+      {
+        "text": "- 2026-09-06 — Verkracked – Security Research on Verkada Anti-Crime Devices – Part 0",
+        "repos": []
+      },
+      {
+        "text": "- 2026-07-02 — Digital Ally ThermoVu DTM-600 / Uniview LAPI Security Research Release",
+        "repos": []
+      },
+      {
+        "text": "- 2026-07-02 — AutoPro and 3rd Party Carplay/Android Auto Dongle Security Research",
+        "repos": []
+      },
+      {
+        "text": "- 2025-09-03 — Roadside to Everyone – Intelligent Traffic Systems (ITS) Research – Kapsch TrafficCom AG (C)V2X Roadside Units (RSU) — Paper published in Phrack 72",
+        "repos": []
+      },
+      {
+        "text": "- 2019-09-13 — PoC for CVE-2017-16744 and CVE-2017-16748",
+        "repos": []
+      },
+      {
+        "text": "- 2025-05-25 — Reverse Engineering the Little Tikes Dream Machine Projector – Part 1",
+        "repos": []
+      },
+      {
+        "text": "- 2025-04-01 — Reverse engineering the MISIRUN Instant Print Kids Camera",
+        "repos": []
+      },
+      {
+        "text": "- 2025-02-27 — CVE-2025-25727,CVE-2025-25728,CVE-2025-25729 Multiple Vulnerabilities found in BossComm OBD2 Tablet",
+        "repos": []
+      },
+      {
+        "text": "- 2025-02-27 — CVE-2025-25730 Developer Options and USB Debugging Authorization Bypass in Motorola Droid Razr HD (XT926)",
+        "repos": []
+      },
+      {
+        "text": "- 2026-07-14 — AOL Desktop Gold Security Research Public Release",
+        "repos": []
+      },
+      {
+        "text": "- 2024-04-28 — CVE-2024-32210, CVE-2024-32211, CVE-2024-32212, CVE-2024-32213 LoMag (Integrator/CE) WareHouse Management",
+        "repos": []
+      },
+      {
+        "text": "- 2022-08-26 — CVE-2022-34108, CVE-2022-34109, CVE-2022-34110 DoS + Arbitrary file Download/Copy in MSI Feature Navigator",
+        "repos": []
+      },
+      {
+        "text": "- 2022-08-19 — CVE-2022-34615, CVE-2022-34621, CVE-2022-34623, CVE-2022-34624 – IDOR, User Enum and More (In Mealie)",
+        "repos": []
+      },
+      {
+        "text": "- 2022-08-07 — CVE-2022-37857, CVE-2022-37163, CVE-2022-37164 Hardcoded Credentials/Weak Password Policies",
+        "repos": []
+      },
+      {
+        "text": "- 2022-08-04 — CVE-2022-35142, CVE-2022-35143, CVE-2022-35144 – DoS, XSS and Weak Password Policy in Renato a Markdown powered knowledge base",
+        "repos": []
+      },
+      {
+        "text": "- 2022-08-02 — CVE-2022-34613, CVE-2022-34618, CVE-2022-34619 – Multiple XSS (And more) in Mealie",
+        "repos": []
+      },
+      {
+        "text": "- 2022-08-02 — CVE-2022-34625 – Server-Side Template Injection to Remote Code Execution (SSTI) to (RCE) in Mealie – A lesson in patience",
+        "repos": []
+      },
+      {
+        "text": "- 2022-07-27 — CVE-2022-34009",
+        "repos": []
+      },
+      {
+        "text": "- 2026-09-17 — Government Run OSINT Services — SectorGov, a public directory for discovering government service links.",
+        "repos": []
+      },
+      {
+        "text": "- 2023-01-03 — 10 Minutes of Google dorking for Covid Documents — Article published in UNREDACTED Magazine, Issue 5 (2023)",
+        "repos": []
+      },
+      {
+        "text": "- 2020-09-06 — OSINT Escapades #1 Government Run People Search",
+        "repos": []
+      },
+      {
+        "text": "- 2019-09-11 — Government Run People Search Tools",
+        "repos": []
+      },
+      {
+        "text": "- 2026-10-19 — RealHermes, an AR/VR Body, Voice, and Eyes for your Hermes Agent — RealHermes repository",
+        "repos": [
+          "RealHermes"
+        ]
+      },
+      {
+        "text": "- 2026-10-12 — TreeHouse Defense System – RF + Wireless SIGINT 3D/XR/VR Dashboard with Steam Frame Support — Treehouse Defense System repository",
+        "repos": [
+          "Tree-House-Defense-System-TDS"
+        ]
+      },
+      {
+        "text": "- 2026-04-29 — Arctic Base",
+        "repos": []
+      },
+      {
+        "text": "- 2026-04-26 — Qwen 3.6 via LMStudio + Openclaw Workaround",
+        "repos": []
+      },
+      {
+        "text": "- 2026-04-26 — SectorMap Release",
+        "repos": []
+      },
+      {
+        "text": "- 2026-04-16 — AutoProber – Automated PCB Probing for hardware hackers",
+        "repos": []
+      },
+      {
+        "text": "- 2025-12-01 — Introducing LeakScope",
+        "repos": []
+      },
+      {
+        "text": "- 2025-06-29 — GainSec in the Middle!",
+        "repos": []
+      },
+      {
+        "text": "- 2024-04-11 — Introducing Sherlock GPT Holmes",
+        "repos": []
+      },
+      {
+        "text": "- 2022-02-21 — Custom Formula CSV XLS XLSX Injection Wordlist",
+        "repos": []
+      },
+      {
+        "text": "- 2022-02-11 — OneListForAll added to Treehouse Wordlists!",
+        "repos": []
+      },
+      {
+        "text": "- 2021-10-06 — TreeHouse Wordlists Big Update!",
+        "repos": []
+      },
+      {
+        "text": "- 2021-07-09 — Interesting Wordlist Added to TreeHouse Wordlists",
+        "repos": []
+      },
+      {
+        "text": "- 2020-10-02 — Burp Suite Extensions 2020 #1",
+        "repos": []
+      },
+      {
+        "text": "- 2020-06-02 — OSINT Tool Back from the dead",
+        "repos": []
+      },
+      {
+        "text": "- 2020-05-23 — Project Update: Dorker",
+        "repos": []
+      },
+      {
+        "text": "- 2020-05-19 — New Project: Dorker",
+        "repos": []
+      },
+      {
+        "text": "- 2020-05-15 — New Wordlist Added to TreeHouse Wordlists!",
+        "repos": []
+      },
+      {
+        "text": "- 2020-05-13 — Monitor when a host pings you Kali Tips #10",
+        "repos": []
+      },
+      {
+        "text": "- 2020-05-09 — GoldenNuggets Update!",
+        "repos": []
+      },
+      {
+        "text": "- 2025-10-18 — Addition to the $150 Private LTE Network",
+        "repos": []
+      },
+      {
+        "text": "- 2025-10-08 — Setting up your own 4G LTE Network (&lt;$150) for your Embedded System &amp; IoT Hacking Lab via Open5GS + CBRS eNodeB on Ubuntu 24.04",
+        "repos": []
+      },
+      {
+        "text": "- 2025-06-26 — Unbricking and Flashing the Yardstick One",
+        "repos": []
+      },
+      {
+        "text": "- 2025-06-09 — The quickest and simplest guide to spinning up a powerful local AI stack. Part 7 – Current Stack – Docker Deploy",
+        "repos": []
+      },
+      {
+        "text": "- 2025-06-08 — The quickest and simplest guide to spinning up a powerful local AI stack. Part 6 – Open-WebUI To Crawl4AI – Chat",
+        "repos": []
+      },
+      {
+        "text": "- 2025-06-07 — The quickest and simplest guide to spinning up a powerful local AI stack. Part 5 – Open-WebUI To Crawl4AI – Local Files",
+        "repos": []
+      },
+      {
+        "text": "- 2025-06-04 — The quickest and simplest guide to spinning up a powerful local AI stack. Part 4 – Transcription via Whisper",
+        "repos": []
+      },
+      {
+        "text": "- 2025-06-03 — The quickest and simplest guide to spinning up a powerful local AI stack. Part 3 – Image Generation via Stable Diffusion",
+        "repos": []
+      },
+      {
+        "text": "- 2025-06-02 — The quickest and simplest guide to spinning up a powerful local AI stack. Part 2 – SearXNG",
+        "repos": []
+      },
+      {
+        "text": "- 2025-06-01 — The quickest and simplest guide to spinning up a powerful local AI stack. Part 1",
+        "repos": []
+      },
+      {
+        "text": "- 2025-05-31 — How to generate VALID TLS Certificates that are NOT self-signed for internal only services.",
+        "repos": []
+      },
+      {
+        "text": "- 2025-05-31 — Complete Install Guide of Kali NetHunter on Nexus 6P – 2025",
+        "repos": []
+      },
+      {
+        "text": "- 2025-05-28 — Using a Nexus 6P and QCSuper to Sniff LTE.",
+        "repos": []
+      },
+      {
+        "text": "- 2025-04-28 — Unbricking and Reflashing the Ubertooth One Clones",
+        "repos": []
+      },
+      {
+        "text": "- 2025-04-17 — PaxCounter (WiFi &amp; Bluetooth Device Counter) For the M5Stack Core2",
+        "repos": []
+      },
+      {
+        "text": "- 2025-03-13 — Dumping Firmware from ESP8684",
+        "repos": []
+      },
+      {
+        "text": "- 2025-01-25 — Sniffing V2X/DSRC with LibreSDR B210/B220 AD9361 on Linux",
+        "repos": []
+      },
+      {
+        "text": "- 2025-01-23 — Setting up and configuring LibreSDR B210/B220 AD9361 on Windows and Linux",
+        "repos": []
+      },
+      {
+        "text": "- 2025-01-23 — ConfiguringWindows Subsystem Linux (WSL) to access USB devices.",
+        "repos": []
+      },
+      {
+        "text": "- 2024-08-13 — Sniffing Zigbee Traffic Easily with the M5NanoC6 2024",
+        "repos": []
+      },
+      {
+        "text": "- 2023-12-21 — New Project: The Hackers Lunch Box",
+        "repos": []
+      },
+      {
+        "text": "- 2022-05-02 — How to Find the next BIG Data Leak in under 20 minutes or less! – LeakLooker-X – Updated 2022",
+        "repos": []
+      },
+      {
+        "text": "- 2022-03-11 — How to install Veracrypt on Kali Linux",
+        "repos": []
+      },
+      {
+        "text": "- 2022-03-07 — Using the WayBack Machine to create parameter wordlists",
+        "repos": []
+      },
+      {
+        "text": "- 2022-02-23 — Check Host Information such as open ports from Shodan WITHOUT an API key!",
+        "repos": []
+      },
+      {
+        "text": "- 2022-02-17 — How to pipe terminal output to your clipboard! (And Vice Versa)",
+        "repos": []
+      },
+      {
+        "text": "- 2022-02-01 — Change Virtualbox settings without booting and install Guest additions Kali Linux 2022",
+        "repos": []
+      },
+      {
+        "text": "- 2022-01-30 — Install and access Cassandra DB on Kali Linux with CLI client",
+        "repos": []
+      },
+      {
+        "text": "- 2022-01-28 — Install MongoDB CLI Client on Kali Linux",
+        "repos": []
+      },
+      {
+        "text": "- 2022-01-26 — Install ProtonVPN on Kali Linux",
+        "repos": []
+      },
+      {
+        "text": "- 2022-01-02 — Top 5 ways to harden the security and privacy of your online accounts in 2022",
+        "repos": []
+      },
+      {
+        "text": "- 2021-11-06 — Install Kali NetHunter Nexus 6p Android 8.1 2021",
+        "repos": []
+      },
+      {
+        "text": "- 2021-09-14 — How to install Objection and bypass SSL pinning on an iOS App",
+        "repos": []
+      },
+      {
+        "text": "- 2021-04-18 — Top 5 ways to harden the security and privacy of your online accounts in 2021",
+        "repos": []
+      },
+      {
+        "text": "- 2021-04-01 — How to install NetHunter on Any Android Phone (Nexus 6p) 2021",
+        "repos": []
+      },
+      {
+        "text": "- 2020-12-06 — Create your own Amiibo",
+        "repos": []
+      },
+      {
+        "text": "- 2020-11-20 — 5 More Internet Hygiene Tips",
+        "repos": []
+      },
+      {
+        "text": "- 2020-09-24 — 5 Internet Hygiene Tips",
+        "repos": []
+      },
+      {
+        "text": "- 2020-09-16 — Hide Command from Bash_History Kali Tips #11",
+        "repos": []
+      },
+      {
+        "text": "- 2020-09-04 — OSINT Escapades #0",
+        "repos": []
+      },
+      {
+        "text": "- 2020-08-03 — Complete CloudGoat Setup Guide",
+        "repos": []
+      },
+      {
+        "text": "- 2020-08-01 — How Install CloudGoat on Ubuntu Server",
+        "repos": []
+      },
+      {
+        "text": "- 2020-07-28 — Upgrade RAM MSI GS65 Stealth Thin (0050-US)",
+        "repos": []
+      },
+      {
+        "text": "- 2019-11-16 — Reinstall Grub Bootloader on a Dual boot laptop Kali Tips #1",
+        "repos": []
+      },
+      {
+        "text": "- 2019-10-23 — How to install NetHunter on Any Android Phone (Nexus 6p)",
+        "repos": []
+      },
+      {
+        "text": "- 2025-09-01 — Handling Two-Way Communication as a Technical Leader",
+        "repos": []
+      },
+      {
+        "text": "- 2025-08-31 — Deriving the Most Value from Technical Team Meetings",
+        "repos": []
+      },
+      {
+        "text": "- 2025-08-29 — Industry Standard Penetration Testing Reports Lack Two Key Enhancements",
+        "repos": []
+      },
+      {
+        "text": "- 2025-05-26 — NTLM and SMB: File Sharing is Caring",
+        "repos": []
+      },
+      {
+        "text": "- 2023-02-11 — Cheap ‘n’ Easy Phishing (That Actually Works)",
+        "repos": []
+      },
+      {
+        "text": "- 2020-11-18 — The importance of Operation’s Security 2020",
+        "repos": []
+      },
+      {
+        "text": "- 2020-11-16 — Saturday Chat 13",
+        "repos": []
+      },
+      {
+        "text": "- 2020-11-04 — Saturday Chat 12 Halloween Edition!",
+        "repos": []
+      },
+      {
+        "text": "- 2020-11-02 — Youtube Shoutout!",
+        "repos": []
+      },
+      {
+        "text": "- 2020-08-25 — GainSec on Saturday Chat",
+        "repos": []
+      },
+      {
+        "text": "- 2020-08-13 — Swiping Sunday Podcast Featuring GainSec",
+        "repos": []
+      }
+    ]
+  },
+  "variants": [
+    {
+      "file": "g02-desktop-dark-animated.svg",
+      "layout": "desktop",
+      "mode": "dark",
+      "motion": "animated",
+      "width": 846,
+      "height": 423,
+      "bytes": 59836,
+      "generateMs": 18.4,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 59836,
+          "elements": 706,
+          "ids": 45,
+          "animations": 4,
+          "filters": 0,
+          "textChars": 85,
+          "embeddedFontBytes": 2937,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g02-desktop-dark-reduced.svg",
+      "layout": "desktop",
+      "mode": "dark",
+      "motion": "reduced",
+      "width": 846,
+      "height": 423,
+      "bytes": 58146,
+      "generateMs": 2.9,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 58146,
+          "elements": 690,
+          "ids": 45,
+          "animations": 1,
+          "filters": 0,
+          "textChars": 85,
+          "embeddedFontBytes": 2937,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g02-desktop-dark-static.svg",
+      "layout": "desktop",
+      "mode": "dark",
+      "motion": "static",
+      "width": 846,
+      "height": 423,
+      "bytes": 57968,
+      "generateMs": 2.9,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 57968,
+          "elements": 689,
+          "ids": 45,
+          "animations": 0,
+          "filters": 0,
+          "textChars": 85,
+          "embeddedFontBytes": 2937,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g02-desktop-light-animated.svg",
+      "layout": "desktop",
+      "mode": "light",
+      "motion": "animated",
+      "width": 846,
+      "height": 423,
+      "bytes": 60159,
+      "generateMs": 2.4,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 60159,
+          "elements": 709,
+          "ids": 46,
+          "animations": 4,
+          "filters": 1,
+          "textChars": 85,
+          "embeddedFontBytes": 2937,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g02-desktop-light-reduced.svg",
+      "layout": "desktop",
+      "mode": "light",
+      "motion": "reduced",
+      "width": 846,
+      "height": 423,
+      "bytes": 58469,
+      "generateMs": 2.3,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 58469,
+          "elements": 693,
+          "ids": 46,
+          "animations": 1,
+          "filters": 1,
+          "textChars": 85,
+          "embeddedFontBytes": 2937,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g02-desktop-light-static.svg",
+      "layout": "desktop",
+      "mode": "light",
+      "motion": "static",
+      "width": 846,
+      "height": 423,
+      "bytes": 58291,
+      "generateMs": 2.4,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 58291,
+          "elements": 692,
+          "ids": 46,
+          "animations": 0,
+          "filters": 1,
+          "textChars": 85,
+          "embeddedFontBytes": 2937,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g02-medium-dark-animated.svg",
+      "layout": "medium",
+      "mode": "dark",
+      "motion": "animated",
+      "width": 590,
+      "height": 330,
+      "bytes": 45142,
+      "generateMs": 2.3,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 45142,
+          "elements": 490,
+          "ids": 41,
+          "animations": 4,
+          "filters": 0,
+          "textChars": 81,
+          "embeddedFontBytes": 2937,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g02-medium-dark-reduced.svg",
+      "layout": "medium",
+      "mode": "dark",
+      "motion": "reduced",
+      "width": 590,
+      "height": 330,
+      "bytes": 43458,
+      "generateMs": 1.8,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 43458,
+          "elements": 474,
+          "ids": 41,
+          "animations": 1,
+          "filters": 0,
+          "textChars": 81,
+          "embeddedFontBytes": 2937,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g02-medium-dark-static.svg",
+      "layout": "medium",
+      "mode": "dark",
+      "motion": "static",
+      "width": 590,
+      "height": 330,
+      "bytes": 43280,
+      "generateMs": 2.1,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 43280,
+          "elements": 473,
+          "ids": 41,
+          "animations": 0,
+          "filters": 0,
+          "textChars": 81,
+          "embeddedFontBytes": 2937,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g02-medium-light-animated.svg",
+      "layout": "medium",
+      "mode": "light",
+      "motion": "animated",
+      "width": 590,
+      "height": 330,
+      "bytes": 45142,
+      "generateMs": 1.8,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 45142,
+          "elements": 490,
+          "ids": 41,
+          "animations": 4,
+          "filters": 0,
+          "textChars": 81,
+          "embeddedFontBytes": 2937,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g02-medium-light-reduced.svg",
+      "layout": "medium",
+      "mode": "light",
+      "motion": "reduced",
+      "width": 590,
+      "height": 330,
+      "bytes": 43458,
+      "generateMs": 1.7,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 43458,
+          "elements": 474,
+          "ids": 41,
+          "animations": 1,
+          "filters": 0,
+          "textChars": 81,
+          "embeddedFontBytes": 2937,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g02-medium-light-static.svg",
+      "layout": "medium",
+      "mode": "light",
+      "motion": "static",
+      "width": 590,
+      "height": 330,
+      "bytes": 43280,
+      "generateMs": 1.7,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 43280,
+          "elements": 473,
+          "ids": 41,
+          "animations": 0,
+          "filters": 0,
+          "textChars": 81,
+          "embeddedFontBytes": 2937,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g02-mobile-dark-animated.svg",
+      "layout": "mobile",
+      "mode": "dark",
+      "motion": "animated",
+      "width": 320,
+      "height": 620,
+      "bytes": 37921,
+      "generateMs": 8.7,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 37921,
+          "elements": 383,
+          "ids": 41,
+          "animations": 2,
+          "filters": 0,
+          "textChars": 63,
+          "embeddedFontBytes": 2922,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g02-mobile-dark-reduced.svg",
+      "layout": "mobile",
+      "mode": "dark",
+      "motion": "reduced",
+      "width": 320,
+      "height": 620,
+      "bytes": 37267,
+      "generateMs": 1.5,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 37267,
+          "elements": 379,
+          "ids": 41,
+          "animations": 1,
+          "filters": 0,
+          "textChars": 63,
+          "embeddedFontBytes": 2922,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g02-mobile-dark-static.svg",
+      "layout": "mobile",
+      "mode": "dark",
+      "motion": "static",
+      "width": 320,
+      "height": 620,
+      "bytes": 37089,
+      "generateMs": 1.4,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 37089,
+          "elements": 378,
+          "ids": 41,
+          "animations": 0,
+          "filters": 0,
+          "textChars": 63,
+          "embeddedFontBytes": 2922,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g02-mobile-light-animated.svg",
+      "layout": "mobile",
+      "mode": "light",
+      "motion": "animated",
+      "width": 320,
+      "height": 620,
+      "bytes": 37921,
+      "generateMs": 1.4,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 37921,
+          "elements": 383,
+          "ids": 41,
+          "animations": 2,
+          "filters": 0,
+          "textChars": 63,
+          "embeddedFontBytes": 2922,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g02-mobile-light-reduced.svg",
+      "layout": "mobile",
+      "mode": "light",
+      "motion": "reduced",
+      "width": 320,
+      "height": 620,
+      "bytes": 37267,
+      "generateMs": 1.4,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 37267,
+          "elements": 379,
+          "ids": 41,
+          "animations": 1,
+          "filters": 0,
+          "textChars": 63,
+          "embeddedFontBytes": 2922,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g02-mobile-light-static.svg",
+      "layout": "mobile",
+      "mode": "light",
+      "motion": "static",
+      "width": 320,
+      "height": 620,
+      "bytes": 37089,
+      "generateMs": 1.3,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 37089,
+          "elements": 378,
+          "ids": 41,
+          "animations": 0,
+          "filters": 0,
+          "textChars": 63,
+          "embeddedFontBytes": 2922,
+          "embeddedRasterBytes": 0
+        }
+      }
+    }
+  ]
+}

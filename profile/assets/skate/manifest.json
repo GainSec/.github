@@ -1,0 +1,482 @@
+{
+  "generator": {
+    "id": "g04",
+    "slug": "skate",
+    "name": "The Line",
+    "theme": "docs/themes/theme-04/research.md"
+  },
+  "data": {
+    "source": "/private/tmp/claude-501/-Volumes-DevStorage-CURRENT-Projects-profile/8b6d6c8d-0a14-4d9d-a1d3-d81088e9d955/scratchpad/wt/fixtures/profile/gainsec.json",
+    "synthetic": false,
+    "generatedAt": "2026-10-22T22:21:17.411Z"
+  },
+  "config": {
+    "seed": "svg-lab-skate",
+    "lang": "en",
+    "showSyntheticLabel": true,
+    "finiteLoops": 0,
+    "style": "stage",
+    "loopSeconds": 16.2,
+    "flightSeconds": 0.56,
+    "frames": 7,
+    "maxTricks": 8,
+    "trickLabels": false,
+    "arrows": false,
+    "caption": false,
+    "grain": true,
+    "stepSeconds": 0.55,
+    "restSeconds": 1.5
+  },
+  "variants": [
+    {
+      "file": "g04-desktop-dark-animated.svg",
+      "layout": "desktop",
+      "mode": "dark",
+      "motion": "animated",
+      "width": 846,
+      "height": 417,
+      "bytes": 64419,
+      "generateMs": 81.3,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 64419,
+          "elements": 117,
+          "ids": 12,
+          "animations": 14,
+          "filters": 1,
+          "textChars": 184,
+          "embeddedFontBytes": 11730,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g04-desktop-dark-reduced.svg",
+      "layout": "desktop",
+      "mode": "dark",
+      "motion": "reduced",
+      "width": 846,
+      "height": 417,
+      "bytes": 26777,
+      "generateMs": 6.1,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 26777,
+          "elements": 80,
+          "ids": 9,
+          "animations": 0,
+          "filters": 1,
+          "textChars": 184,
+          "embeddedFontBytes": 11730,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g04-desktop-dark-static.svg",
+      "layout": "desktop",
+      "mode": "dark",
+      "motion": "static",
+      "width": 846,
+      "height": 417,
+      "bytes": 26782,
+      "generateMs": 5.8,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 26782,
+          "elements": 80,
+          "ids": 9,
+          "animations": 0,
+          "filters": 1,
+          "textChars": 184,
+          "embeddedFontBytes": 11730,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g04-desktop-light-animated.svg",
+      "layout": "desktop",
+      "mode": "light",
+      "motion": "animated",
+      "width": 846,
+      "height": 417,
+      "bytes": 64020,
+      "generateMs": 4.8,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 64020,
+          "elements": 112,
+          "ids": 11,
+          "animations": 14,
+          "filters": 1,
+          "textChars": 184,
+          "embeddedFontBytes": 11730,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g04-desktop-light-reduced.svg",
+      "layout": "desktop",
+      "mode": "light",
+      "motion": "reduced",
+      "width": 846,
+      "height": 417,
+      "bytes": 26378,
+      "generateMs": 4.8,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 26378,
+          "elements": 75,
+          "ids": 8,
+          "animations": 0,
+          "filters": 1,
+          "textChars": 184,
+          "embeddedFontBytes": 11730,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g04-desktop-light-static.svg",
+      "layout": "desktop",
+      "mode": "light",
+      "motion": "static",
+      "width": 846,
+      "height": 417,
+      "bytes": 26383,
+      "generateMs": 5,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 26383,
+          "elements": 75,
+          "ids": 8,
+          "animations": 0,
+          "filters": 1,
+          "textChars": 184,
+          "embeddedFontBytes": 11730,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g04-medium-dark-animated.svg",
+      "layout": "medium",
+      "mode": "dark",
+      "motion": "animated",
+      "width": 590,
+      "height": 391,
+      "bytes": 50983,
+      "generateMs": 15,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 50983,
+          "elements": 112,
+          "ids": 12,
+          "animations": 14,
+          "filters": 1,
+          "textChars": 125,
+          "embeddedFontBytes": 10872,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g04-medium-dark-reduced.svg",
+      "layout": "medium",
+      "mode": "dark",
+      "motion": "reduced",
+      "width": 590,
+      "height": 391,
+      "bytes": 23753,
+      "generateMs": 3.5,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 23753,
+          "elements": 75,
+          "ids": 9,
+          "animations": 0,
+          "filters": 1,
+          "textChars": 125,
+          "embeddedFontBytes": 10872,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g04-medium-dark-static.svg",
+      "layout": "medium",
+      "mode": "dark",
+      "motion": "static",
+      "width": 590,
+      "height": 391,
+      "bytes": 23755,
+      "generateMs": 3.7,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 23755,
+          "elements": 75,
+          "ids": 9,
+          "animations": 0,
+          "filters": 1,
+          "textChars": 125,
+          "embeddedFontBytes": 10872,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g04-medium-light-animated.svg",
+      "layout": "medium",
+      "mode": "light",
+      "motion": "animated",
+      "width": 590,
+      "height": 391,
+      "bytes": 50577,
+      "generateMs": 2.4,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 50577,
+          "elements": 107,
+          "ids": 11,
+          "animations": 14,
+          "filters": 1,
+          "textChars": 125,
+          "embeddedFontBytes": 10872,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g04-medium-light-reduced.svg",
+      "layout": "medium",
+      "mode": "light",
+      "motion": "reduced",
+      "width": 590,
+      "height": 391,
+      "bytes": 23347,
+      "generateMs": 2.4,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 23347,
+          "elements": 70,
+          "ids": 8,
+          "animations": 0,
+          "filters": 1,
+          "textChars": 125,
+          "embeddedFontBytes": 10872,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g04-medium-light-static.svg",
+      "layout": "medium",
+      "mode": "light",
+      "motion": "static",
+      "width": 590,
+      "height": 391,
+      "bytes": 23349,
+      "generateMs": 2.4,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 23349,
+          "elements": 70,
+          "ids": 8,
+          "animations": 0,
+          "filters": 1,
+          "textChars": 125,
+          "embeddedFontBytes": 10872,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g04-mobile-dark-animated.svg",
+      "layout": "mobile",
+      "mode": "dark",
+      "motion": "animated",
+      "width": 320,
+      "height": 397,
+      "bytes": 42834,
+      "generateMs": 13.6,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 42834,
+          "elements": 109,
+          "ids": 12,
+          "animations": 13,
+          "filters": 1,
+          "textChars": 110,
+          "embeddedFontBytes": 10704,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g04-mobile-dark-reduced.svg",
+      "layout": "mobile",
+      "mode": "dark",
+      "motion": "reduced",
+      "width": 320,
+      "height": 397,
+      "bytes": 22721,
+      "generateMs": 1.9,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 22721,
+          "elements": 73,
+          "ids": 9,
+          "animations": 0,
+          "filters": 1,
+          "textChars": 110,
+          "embeddedFontBytes": 10704,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g04-mobile-dark-static.svg",
+      "layout": "mobile",
+      "mode": "dark",
+      "motion": "static",
+      "width": 320,
+      "height": 397,
+      "bytes": 22722,
+      "generateMs": 1.8,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 22722,
+          "elements": 73,
+          "ids": 9,
+          "animations": 0,
+          "filters": 1,
+          "textChars": 110,
+          "embeddedFontBytes": 10704,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g04-mobile-light-animated.svg",
+      "layout": "mobile",
+      "mode": "light",
+      "motion": "animated",
+      "width": 320,
+      "height": 397,
+      "bytes": 42428,
+      "generateMs": 1.8,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 42428,
+          "elements": 104,
+          "ids": 11,
+          "animations": 13,
+          "filters": 1,
+          "textChars": 110,
+          "embeddedFontBytes": 10704,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g04-mobile-light-reduced.svg",
+      "layout": "mobile",
+      "mode": "light",
+      "motion": "reduced",
+      "width": 320,
+      "height": 397,
+      "bytes": 22315,
+      "generateMs": 2.5,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 22315,
+          "elements": 68,
+          "ids": 8,
+          "animations": 0,
+          "filters": 1,
+          "textChars": 110,
+          "embeddedFontBytes": 10704,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g04-mobile-light-static.svg",
+      "layout": "mobile",
+      "mode": "light",
+      "motion": "static",
+      "width": 320,
+      "height": 397,
+      "bytes": 22316,
+      "generateMs": 1.7,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 22316,
+          "elements": 68,
+          "ids": 8,
+          "animations": 0,
+          "filters": 1,
+          "textChars": 110,
+          "embeddedFontBytes": 10704,
+          "embeddedRasterBytes": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,556 @@
+{
+  "generator": {
+    "id": "g08",
+    "slug": "knd",
+    "name": "Mission dossier",
+    "theme": "docs/themes/theme-08/research.md"
+  },
+  "data": {
+    "source": "/private/tmp/claude-501/-Volumes-DevStorage-CURRENT-Projects-profile/8b6d6c8d-0a14-4d9d-a1d3-d81088e9d955/scratchpad/wt/fixtures/profile/gainsec.json",
+    "synthetic": false,
+    "generatedAt": "2026-10-22T22:21:17.411Z"
+  },
+  "config": {
+    "seed": "svg-lab-knd",
+    "lang": "en",
+    "showSyntheticLabel": true,
+    "finiteLoops": 0,
+    "homage": false,
+    "mode": "sequence",
+    "featuredDetails": [
+      {
+        "owner": "GainSec",
+        "repo": "AutoProber",
+        "title": "AutoProber",
+        "description": "Agent-driven target discovery, microscope mapping, safety-monitored CNC motion, operator review, and controlled PCB pin probing—with source, dashboard, CAD, and safety documentation."
+      },
+      {
+        "owner": "GainSec",
+        "repo": "Tree-House-Defense-System-TDS",
+        "title": "Treehouse Defense System",
+        "description": "A self-hosted 3D RF-awareness and presence-intelligence platform with Steam Frame/WebXR tabletop AR and life-size VR, joining local Wi-Fi, BLE, ADS-B, rail, IoT, infrastructure, and authorized LTE-lab observations."
+      },
+      {
+        "owner": "GainSec",
+        "repo": "BattleReadyArmor-Slim",
+        "title": "BattleReadyArmor — Slim",
+        "description": "An AI-augmented security assessment framework built around operator authority, scope controls, anonymization, explicit approvals, evidence, and governed reporting."
+      },
+      {
+        "owner": "GainSec",
+        "repo": "AgentReadyArmor-Teaser",
+        "title": "AgentReadyArmor — Teaser",
+        "description": "A public preview of an agent runtime substrate focused on capability containment, evidence provenance, and auditable operator control."
+      },
+      {
+        "owner": "GainSec",
+        "repo": "ArcticBase",
+        "title": "ArcticBase",
+        "description": "A self-hosted workbench for agent approvals, runbooks, files, review artifacts, task state, and auditable out-of-band collaboration."
+      },
+      {
+        "owner": "GainSec",
+        "repo": "BirdShot",
+        "title": "BirdShot",
+        "description": "An offline-first offensive framework for authorized Flock Safety security assessments and penetration testing."
+      },
+      {
+        "owner": "pragma-org",
+        "repo": "dwarf",
+        "title": "DWARF",
+        "description": "Cardano and Amaru fuzzing and adversarial testing across serialization, mini-protocol, runtime, resource, and consensus surfaces, with replayable evidence and deterministic-simulation integration."
+      },
+      {
+        "owner": "GainSec",
+        "repo": "Super-Awesome-AI-Driver",
+        "title": "Super Awesome AI Driver",
+        "description": "A reverse-engineered camera-car dashboard and agent API that gives a human or authorized agent live video, two-way audio, and motion control."
+      }
+    ],
+    "featured": [
+      "AutoProber",
+      "Tree-House-Defense-System-TDS",
+      "BattleReadyArmor-Slim",
+      "AgentReadyArmor-Teaser",
+      "ArcticBase",
+      "BirdShot",
+      "Super-Awesome-AI-Driver"
+    ],
+    "maxLog": 6,
+    "showDevice": true,
+    "frames": 16,
+    "pop": true
+  },
+  "variants": [
+    {
+      "file": "g08-desktop-dark-animated.svg",
+      "layout": "desktop",
+      "mode": "dark",
+      "motion": "animated",
+      "width": 846,
+      "height": 420,
+      "bytes": 118247,
+      "generateMs": 43.6,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [
+          "size.warn",
+          "id.prefix",
+          "id.prefix"
+        ],
+        "stats": {
+          "bytes": 118247,
+          "elements": 697,
+          "ids": 68,
+          "animations": 54,
+          "filters": 0,
+          "textChars": 2085,
+          "embeddedFontBytes": 10749,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g08-desktop-dark-reduced.svg",
+      "layout": "desktop",
+      "mode": "dark",
+      "motion": "reduced",
+      "width": 846,
+      "height": 420,
+      "bytes": 32719,
+      "generateMs": 21.5,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 32719,
+          "elements": 262,
+          "ids": 39,
+          "animations": 0,
+          "filters": 0,
+          "textChars": 449,
+          "embeddedFontBytes": 8103,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g08-desktop-dark-static.svg",
+      "layout": "desktop",
+      "mode": "dark",
+      "motion": "static",
+      "width": 846,
+      "height": 420,
+      "bytes": 32719,
+      "generateMs": 5.2,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 32719,
+          "elements": 262,
+          "ids": 39,
+          "animations": 0,
+          "filters": 0,
+          "textChars": 449,
+          "embeddedFontBytes": 8103,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g08-desktop-light-animated.svg",
+      "layout": "desktop",
+      "mode": "light",
+      "motion": "animated",
+      "width": 846,
+      "height": 420,
+      "bytes": 118247,
+      "generateMs": 11.7,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [
+          "size.warn",
+          "id.prefix",
+          "id.prefix"
+        ],
+        "stats": {
+          "bytes": 118247,
+          "elements": 697,
+          "ids": 68,
+          "animations": 54,
+          "filters": 0,
+          "textChars": 2085,
+          "embeddedFontBytes": 10749,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g08-desktop-light-reduced.svg",
+      "layout": "desktop",
+      "mode": "light",
+      "motion": "reduced",
+      "width": 846,
+      "height": 420,
+      "bytes": 32719,
+      "generateMs": 3.7,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 32719,
+          "elements": 262,
+          "ids": 39,
+          "animations": 0,
+          "filters": 0,
+          "textChars": 449,
+          "embeddedFontBytes": 8103,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g08-desktop-light-static.svg",
+      "layout": "desktop",
+      "mode": "light",
+      "motion": "static",
+      "width": 846,
+      "height": 420,
+      "bytes": 32719,
+      "generateMs": 3.5,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 32719,
+          "elements": 262,
+          "ids": 39,
+          "animations": 0,
+          "filters": 0,
+          "textChars": 449,
+          "embeddedFontBytes": 8103,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g08-medium-dark-animated.svg",
+      "layout": "medium",
+      "mode": "dark",
+      "motion": "animated",
+      "width": 590,
+      "height": 603,
+      "bytes": 90828,
+      "generateMs": 40.1,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [
+          "id.prefix",
+          "id.prefix"
+        ],
+        "stats": {
+          "bytes": 90828,
+          "elements": 691,
+          "ids": 65,
+          "animations": 53,
+          "filters": 0,
+          "textChars": 2089,
+          "embeddedFontBytes": 10704,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g08-medium-dark-reduced.svg",
+      "layout": "medium",
+      "mode": "dark",
+      "motion": "reduced",
+      "width": 590,
+      "height": 603,
+      "bytes": 32744,
+      "generateMs": 4.5,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 32744,
+          "elements": 262,
+          "ids": 39,
+          "animations": 0,
+          "filters": 0,
+          "textChars": 449,
+          "embeddedFontBytes": 8103,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g08-medium-dark-static.svg",
+      "layout": "medium",
+      "mode": "dark",
+      "motion": "static",
+      "width": 590,
+      "height": 603,
+      "bytes": 32744,
+      "generateMs": 3.7,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 32744,
+          "elements": 262,
+          "ids": 39,
+          "animations": 0,
+          "filters": 0,
+          "textChars": 449,
+          "embeddedFontBytes": 8103,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g08-medium-light-animated.svg",
+      "layout": "medium",
+      "mode": "light",
+      "motion": "animated",
+      "width": 590,
+      "height": 603,
+      "bytes": 90828,
+      "generateMs": 28.6,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [
+          "id.prefix",
+          "id.prefix"
+        ],
+        "stats": {
+          "bytes": 90828,
+          "elements": 691,
+          "ids": 65,
+          "animations": 53,
+          "filters": 0,
+          "textChars": 2089,
+          "embeddedFontBytes": 10704,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g08-medium-light-reduced.svg",
+      "layout": "medium",
+      "mode": "light",
+      "motion": "reduced",
+      "width": 590,
+      "height": 603,
+      "bytes": 32744,
+      "generateMs": 3.4,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 32744,
+          "elements": 262,
+          "ids": 39,
+          "animations": 0,
+          "filters": 0,
+          "textChars": 449,
+          "embeddedFontBytes": 8103,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g08-medium-light-static.svg",
+      "layout": "medium",
+      "mode": "light",
+      "motion": "static",
+      "width": 590,
+      "height": 603,
+      "bytes": 32744,
+      "generateMs": 3.2,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 32744,
+          "elements": 262,
+          "ids": 39,
+          "animations": 0,
+          "filters": 0,
+          "textChars": 449,
+          "embeddedFontBytes": 8103,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g08-mobile-dark-animated.svg",
+      "layout": "mobile",
+      "mode": "dark",
+      "motion": "animated",
+      "width": 320,
+      "height": 841,
+      "bytes": 76276,
+      "generateMs": 37.9,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [
+          "id.prefix",
+          "id.prefix"
+        ],
+        "stats": {
+          "bytes": 76276,
+          "elements": 636,
+          "ids": 65,
+          "animations": 52,
+          "filters": 0,
+          "textChars": 2004,
+          "embeddedFontBytes": 4104,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g08-mobile-dark-reduced.svg",
+      "layout": "mobile",
+      "mode": "dark",
+      "motion": "reduced",
+      "width": 320,
+      "height": 841,
+      "bytes": 25585,
+      "generateMs": 3.4,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 25585,
+          "elements": 257,
+          "ids": 39,
+          "animations": 0,
+          "filters": 0,
+          "textChars": 446,
+          "embeddedFontBytes": 3222,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g08-mobile-dark-static.svg",
+      "layout": "mobile",
+      "mode": "dark",
+      "motion": "static",
+      "width": 320,
+      "height": 841,
+      "bytes": 25585,
+      "generateMs": 3,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 25585,
+          "elements": 257,
+          "ids": 39,
+          "animations": 0,
+          "filters": 0,
+          "textChars": 446,
+          "embeddedFontBytes": 3222,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g08-mobile-light-animated.svg",
+      "layout": "mobile",
+      "mode": "light",
+      "motion": "animated",
+      "width": 320,
+      "height": 841,
+      "bytes": 76276,
+      "generateMs": 26.4,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [
+          "id.prefix",
+          "id.prefix"
+        ],
+        "stats": {
+          "bytes": 76276,
+          "elements": 636,
+          "ids": 65,
+          "animations": 52,
+          "filters": 0,
+          "textChars": 2004,
+          "embeddedFontBytes": 4104,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g08-mobile-light-reduced.svg",
+      "layout": "mobile",
+      "mode": "light",
+      "motion": "reduced",
+      "width": 320,
+      "height": 841,
+      "bytes": 25585,
+      "generateMs": 3.2,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 25585,
+          "elements": 257,
+          "ids": 39,
+          "animations": 0,
+          "filters": 0,
+          "textChars": 446,
+          "embeddedFontBytes": 3222,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g08-mobile-light-static.svg",
+      "layout": "mobile",
+      "mode": "light",
+      "motion": "static",
+      "width": 320,
+      "height": 841,
+      "bytes": 25585,
+      "generateMs": 3.9,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 25585,
+          "elements": 257,
+          "ids": 39,
+          "animations": 0,
+          "filters": 0,
+          "textChars": 446,
+          "embeddedFontBytes": 3222,
+          "embeddedRasterBytes": 0
+        }
+      }
+    }
+  ]
+}

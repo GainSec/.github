@@ -1,0 +1,698 @@
+{
+  "generator": {
+    "id": "g09",
+    "slug": "threed",
+    "name": "Viewport turntable",
+    "theme": "docs/themes/theme-09/research.md"
+  },
+  "data": {
+    "source": "/private/tmp/claude-501/-Volumes-DevStorage-CURRENT-Projects-profile/8b6d6c8d-0a14-4d9d-a1d3-d81088e9d955/scratchpad/wt/fixtures/profile/gainsec.json",
+    "synthetic": false,
+    "generatedAt": "2026-10-22T22:21:17.411Z"
+  },
+  "config": {
+    "seed": "svg-lab-threed",
+    "lang": "en",
+    "showSyntheticLabel": true,
+    "finiteLoops": 0,
+    "subject": "categories",
+    "categories": [
+      {
+        "category": "Vulnerability / Security Research",
+        "count": 19,
+        "subcategories": [
+          {
+            "name": "Connected Public Safety and Anti-Crime Technology",
+            "projects": [
+              "anti-crime-ecosystem-research",
+              "BirdShot",
+              "Flock-Safety-Trap-Shooter-Sniffer-Alarm",
+              "onvif-enum",
+              "Uniview-LAPI-Research-Toolkit",
+              "DigitalAlly-ThermoVu-Uniview-Security-Research",
+              "verkada-verkracked-alarm-hub-local-framework",
+              "verkada-verkracked-subghz-framework",
+              "CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara",
+              "flock-safety-falcon-sparrow-alpr-edl-firehose",
+              "verkada-verkracked-bullet-cam-cloud-emulator",
+              "VerkEye",
+              "verkada-verkracked-ambrella-CB62-firmwaredumper"
+            ]
+          },
+          {
+            "name": "Software",
+            "projects": [
+              "macos-printer-simulator-security-research",
+              "AOL-Desktop-Gold-Security-Research"
+            ]
+          },
+          {
+            "name": "Automotive + V2X Security",
+            "projects": [
+              "3rdParty-Carplay-AndroidAuto-Dongle-Security-Research",
+              "Wireless-Attack-Vectors-Against-Automobiles"
+            ]
+          },
+          {
+            "name": "Hardware + Embedded Security",
+            "projects": [
+              "Little-Tikes-DreamProjector-Reverse-Engineering"
+            ]
+          },
+          {
+            "name": "Research Companion Material",
+            "projects": [
+              "Phrack-72-Raw-Output-V2X"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Technical Walkthroughs",
+        "count": 5,
+        "subcategories": [
+          {
+            "name": "Tutorials + Build Guides",
+            "projects": [
+              "Qwen 3.6 Tool-Call Fix",
+              "M5NanoC6-Zigbee-Sniffer",
+              "CloudGoatTutorial"
+            ]
+          },
+          {
+            "name": "Lectures + Educational Material",
+            "projects": [
+              "Silk-Road-Lecture"
+            ]
+          },
+          {
+            "name": "Workflow Guides",
+            "projects": [
+              "n8n-workflow-whisper-server"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Offensive Tooling",
+        "count": 16,
+        "subcategories": [
+          {
+            "name": "Fuzzing + Adversarial Testing",
+            "projects": [
+              "DWARF"
+            ]
+          },
+          {
+            "name": "Reconnaissance + Enumeration",
+            "projects": [
+              "crt.sh-OSX"
+            ]
+          },
+          {
+            "name": "OSINT",
+            "projects": [
+              "LeakScope",
+              "Dorker",
+              "FOSINT",
+              "Base-Google-Dorks"
+            ]
+          },
+          {
+            "name": "Assessment Workflow",
+            "projects": [
+              "GoldenNuggets-1",
+              "TreeHouse-Wordlists",
+              "Hackers-LunchBox",
+              "Mac-OSX-Application-Fingerprint-And-Security-Tool",
+              "Quick-Engagement-Directory-Maker"
+            ]
+          },
+          {
+            "name": "Wireless + Device Tooling",
+            "projects": [
+              "gainsec-in-the-middle",
+              "Weaponized-Mousejack-Keysniff"
+            ]
+          },
+          {
+            "name": "Payload + Bypass Research",
+            "projects": [
+              "RTLOify"
+            ]
+          },
+          {
+            "name": "Legacy Tooling",
+            "projects": [
+              "vncpwn",
+              "LeakLooker-X---2022"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Open / Public Source Projects",
+        "count": 19,
+        "subcategories": [
+          {
+            "name": "Hardware + Embedded",
+            "projects": [
+              "AutoProber",
+              "RapidPower-RoboDog",
+              "Super-Awesome-AI-Driver"
+            ]
+          },
+          {
+            "name": "RF + Wireless",
+            "projects": [
+              "Tree-House-Defense-System-TDS",
+              "M5Stack-Core2-PaxCounter-WiFi-Bluetooth-Monitor"
+            ]
+          },
+          {
+            "name": "LLM / ML / AI / Agents",
+            "projects": [
+              "ArcticBase",
+              "BattleReadyArmor-Slim",
+              "battlereadyarmor-pilot",
+              "MacOS-ImagePlayground-Improved",
+              "AgentReadyArmor-Teaser",
+              "tensorflow-generic-harness",
+              "BattleReadyArmor-PublicPreview",
+              "GainSec-Local-AI-Stack",
+              "MacOS-AppleIntelligence-Harness",
+              "RealHermes"
+            ]
+          },
+          {
+            "name": "Applications + Utilities",
+            "projects": [
+              "PineapplePager-Themer",
+              "Homarr-Integrations-Widgets",
+              "unicode-secret-message"
+            ]
+          },
+          {
+            "name": "Data + Visualization",
+            "projects": [
+              "SectorMap"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Everything Else",
+        "count": 1,
+        "subcategories": [
+          {
+            "name": "Experiments",
+            "projects": [
+              "IG-Clone-Tracker"
+            ]
+          }
+        ]
+      }
+    ],
+    "repos": 12,
+    "frames": 24,
+    "loopSeconds": 12,
+    "azimuthDeg": 45,
+    "lightAzimuthDeg": 25.02,
+    "lightElevationDeg": 50.39,
+    "hMax": 2.2,
+    "hMin": 0.3,
+    "grid": true,
+    "stepped": false,
+    "hiddenCopies": "visibility"
+  },
+  "variants": [
+    {
+      "file": "g09-desktop-dark-animated.svg",
+      "layout": "desktop",
+      "mode": "dark",
+      "motion": "animated",
+      "width": 846,
+      "height": 420,
+      "bytes": 98142,
+      "generateMs": 30.2,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 98142,
+          "elements": 726,
+          "ids": 7,
+          "animations": 325,
+          "filters": 0,
+          "textChars": 683,
+          "embeddedFontBytes": 6708,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g09-desktop-dark-reduced.svg",
+      "layout": "desktop",
+      "mode": "dark",
+      "motion": "reduced",
+      "width": 846,
+      "height": 420,
+      "bytes": 24699,
+      "generateMs": 10.2,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 24699,
+          "elements": 194,
+          "ids": 3,
+          "animations": 1,
+          "filters": 0,
+          "textChars": 683,
+          "embeddedFontBytes": 6708,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g09-desktop-dark-static.svg",
+      "layout": "desktop",
+      "mode": "dark",
+      "motion": "static",
+      "width": 846,
+      "height": 420,
+      "bytes": 24605,
+      "generateMs": 10.1,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 24605,
+          "elements": 193,
+          "ids": 3,
+          "animations": 0,
+          "filters": 0,
+          "textChars": 683,
+          "embeddedFontBytes": 6708,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g09-desktop-light-animated.svg",
+      "layout": "desktop",
+      "mode": "light",
+      "motion": "animated",
+      "width": 846,
+      "height": 420,
+      "bytes": 98137,
+      "generateMs": 5.2,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 98137,
+          "elements": 726,
+          "ids": 7,
+          "animations": 325,
+          "filters": 0,
+          "textChars": 683,
+          "embeddedFontBytes": 6708,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g09-desktop-light-reduced.svg",
+      "layout": "desktop",
+      "mode": "light",
+      "motion": "reduced",
+      "width": 846,
+      "height": 420,
+      "bytes": 24698,
+      "generateMs": 10.4,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 24698,
+          "elements": 194,
+          "ids": 3,
+          "animations": 1,
+          "filters": 0,
+          "textChars": 683,
+          "embeddedFontBytes": 6708,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g09-desktop-light-static.svg",
+      "layout": "desktop",
+      "mode": "light",
+      "motion": "static",
+      "width": 846,
+      "height": 420,
+      "bytes": 24604,
+      "generateMs": 9.1,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 24604,
+          "elements": 193,
+          "ids": 3,
+          "animations": 0,
+          "filters": 0,
+          "textChars": 683,
+          "embeddedFontBytes": 6708,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g09-medium-dark-animated.svg",
+      "layout": "medium",
+      "mode": "dark",
+      "motion": "animated",
+      "width": 590,
+      "height": 914,
+      "bytes": 97877,
+      "generateMs": 5.7,
+      "warnings": [
+        "medium: 97877 B above the 90 KB layout target (categories are never dropped)"
+      ],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 97877,
+          "elements": 726,
+          "ids": 7,
+          "animations": 325,
+          "filters": 0,
+          "textChars": 673,
+          "embeddedFontBytes": 6708,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g09-medium-dark-reduced.svg",
+      "layout": "medium",
+      "mode": "dark",
+      "motion": "reduced",
+      "width": 590,
+      "height": 914,
+      "bytes": 24633,
+      "generateMs": 8.8,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 24633,
+          "elements": 194,
+          "ids": 3,
+          "animations": 1,
+          "filters": 0,
+          "textChars": 673,
+          "embeddedFontBytes": 6708,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g09-medium-dark-static.svg",
+      "layout": "medium",
+      "mode": "dark",
+      "motion": "static",
+      "width": 590,
+      "height": 914,
+      "bytes": 24539,
+      "generateMs": 9.3,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 24539,
+          "elements": 193,
+          "ids": 3,
+          "animations": 0,
+          "filters": 0,
+          "textChars": 673,
+          "embeddedFontBytes": 6708,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g09-medium-light-animated.svg",
+      "layout": "medium",
+      "mode": "light",
+      "motion": "animated",
+      "width": 590,
+      "height": 914,
+      "bytes": 97872,
+      "generateMs": 4.8,
+      "warnings": [
+        "medium: 97872 B above the 90 KB layout target (categories are never dropped)"
+      ],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 97872,
+          "elements": 726,
+          "ids": 7,
+          "animations": 325,
+          "filters": 0,
+          "textChars": 673,
+          "embeddedFontBytes": 6708,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g09-medium-light-reduced.svg",
+      "layout": "medium",
+      "mode": "light",
+      "motion": "reduced",
+      "width": 590,
+      "height": 914,
+      "bytes": 24632,
+      "generateMs": 9.3,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 24632,
+          "elements": 194,
+          "ids": 3,
+          "animations": 1,
+          "filters": 0,
+          "textChars": 673,
+          "embeddedFontBytes": 6708,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g09-medium-light-static.svg",
+      "layout": "medium",
+      "mode": "light",
+      "motion": "static",
+      "width": 590,
+      "height": 914,
+      "bytes": 24538,
+      "generateMs": 10.2,
+      "warnings": [],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 24538,
+          "elements": 193,
+          "ids": 3,
+          "animations": 0,
+          "filters": 0,
+          "textChars": 673,
+          "embeddedFontBytes": 6708,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g09-mobile-dark-animated.svg",
+      "layout": "mobile",
+      "mode": "dark",
+      "motion": "animated",
+      "width": 320,
+      "height": 804,
+      "bytes": 93323,
+      "generateMs": 22.3,
+      "warnings": [
+        "mobile: 93323 B above the 60 KB layout target (categories are never dropped)",
+        "1 legend name shortened"
+      ],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 93323,
+          "elements": 712,
+          "ids": 7,
+          "animations": 325,
+          "filters": 0,
+          "textChars": 663,
+          "embeddedFontBytes": 6684,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g09-mobile-dark-reduced.svg",
+      "layout": "mobile",
+      "mode": "dark",
+      "motion": "reduced",
+      "width": 320,
+      "height": 804,
+      "bytes": 20536,
+      "generateMs": 10.7,
+      "warnings": [
+        "1 legend name shortened"
+      ],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 20536,
+          "elements": 180,
+          "ids": 3,
+          "animations": 1,
+          "filters": 0,
+          "textChars": 663,
+          "embeddedFontBytes": 6684,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g09-mobile-dark-static.svg",
+      "layout": "mobile",
+      "mode": "dark",
+      "motion": "static",
+      "width": 320,
+      "height": 804,
+      "bytes": 20442,
+      "generateMs": 10,
+      "warnings": [
+        "1 legend name shortened"
+      ],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 20442,
+          "elements": 179,
+          "ids": 3,
+          "animations": 0,
+          "filters": 0,
+          "textChars": 663,
+          "embeddedFontBytes": 6684,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g09-mobile-light-animated.svg",
+      "layout": "mobile",
+      "mode": "light",
+      "motion": "animated",
+      "width": 320,
+      "height": 804,
+      "bytes": 93323,
+      "generateMs": 5,
+      "warnings": [
+        "mobile: 93323 B above the 60 KB layout target (categories are never dropped)",
+        "1 legend name shortened"
+      ],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 93323,
+          "elements": 712,
+          "ids": 7,
+          "animations": 325,
+          "filters": 0,
+          "textChars": 663,
+          "embeddedFontBytes": 6684,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g09-mobile-light-reduced.svg",
+      "layout": "mobile",
+      "mode": "light",
+      "motion": "reduced",
+      "width": 320,
+      "height": 804,
+      "bytes": 20536,
+      "generateMs": 9.8,
+      "warnings": [
+        "1 legend name shortened"
+      ],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 20536,
+          "elements": 180,
+          "ids": 3,
+          "animations": 1,
+          "filters": 0,
+          "textChars": 663,
+          "embeddedFontBytes": 6684,
+          "embeddedRasterBytes": 0
+        }
+      }
+    },
+    {
+      "file": "g09-mobile-light-static.svg",
+      "layout": "mobile",
+      "mode": "light",
+      "motion": "static",
+      "width": 320,
+      "height": 804,
+      "bytes": 20442,
+      "generateMs": 10.2,
+      "warnings": [
+        "1 legend name shortened"
+      ],
+      "validation": {
+        "ok": true,
+        "warnings": [],
+        "stats": {
+          "bytes": 20442,
+          "elements": 179,
+          "ids": 3,
+          "animations": 0,
+          "filters": 0,
+          "textChars": 663,
+          "embeddedFontBytes": 6684,
+          "embeddedRasterBytes": 0
+        }
+      }
+    }
+  ]
+}
