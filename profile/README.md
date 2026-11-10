@@ -4,7 +4,7 @@
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/last-trick/last-trick-desktop-still.webp">
   <source media="(max-width: 767px)" srcset="./assets/last-trick/last-trick-mobile.webp">
   <source media="(max-width: 1279px)" srcset="./assets/last-trick/last-trick-medium.webp">
-  <img src="./assets/last-trick/last-trick-desktop.webp" width="100%" alt="Jon “GainSec” Gaines — a skater rolls into an empty suburban parking lot at sunset, lands a nollie 360 flip with the low sun behind him, and rolls away">
+  <img src="./assets/last-trick/last-trick-desktop.webp" width="100%" alt="Jon “GainSec” Gaines — a skater rolls across the concrete floor of an open pavilion, lands a nollie 360 flip, and rolls away">
 </picture>
 
 <p align="center">
