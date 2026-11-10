@@ -6,7 +6,7 @@
     "theme": "docs/themes/theme-08/research.md"
   },
   "data": {
-    "source": "/private/tmp/claude-501/-Volumes-DevStorage-CURRENT-Projects-profile/8b6d6c8d-0a14-4d9d-a1d3-d81088e9d955/scratchpad/wt/fixtures/profile/gainsec.json",
+    "source": "fixtures/profile/gainsec.json",
     "synthetic": false,
     "generatedAt": "2026-10-22T22:21:17.411Z"
   },
@@ -90,7 +90,7 @@
       "width": 846,
       "height": 420,
       "bytes": 118247,
-      "generateMs": 43.6,
+      "generateMs": 194.8,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -119,7 +119,7 @@
       "width": 846,
       "height": 420,
       "bytes": 32719,
-      "generateMs": 21.5,
+      "generateMs": 66.3,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -144,7 +144,7 @@
       "width": 846,
       "height": 420,
       "bytes": 32719,
-      "generateMs": 5.2,
+      "generateMs": 9.2,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -169,7 +169,7 @@
       "width": 846,
       "height": 420,
       "bytes": 118247,
-      "generateMs": 11.7,
+      "generateMs": 31.9,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -198,7 +198,7 @@
       "width": 846,
       "height": 420,
       "bytes": 32719,
-      "generateMs": 3.7,
+      "generateMs": 8.8,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -223,7 +223,7 @@
       "width": 846,
       "height": 420,
       "bytes": 32719,
-      "generateMs": 3.5,
+      "generateMs": 7.7,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -248,7 +248,7 @@
       "width": 590,
       "height": 603,
       "bytes": 90828,
-      "generateMs": 40.1,
+      "generateMs": 94,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -276,7 +276,7 @@
       "width": 590,
       "height": 603,
       "bytes": 32744,
-      "generateMs": 4.5,
+      "generateMs": 4.6,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -301,7 +301,7 @@
       "width": 590,
       "height": 603,
       "bytes": 32744,
-      "generateMs": 3.7,
+      "generateMs": 10.7,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -326,7 +326,7 @@
       "width": 590,
       "height": 603,
       "bytes": 90828,
-      "generateMs": 28.6,
+      "generateMs": 29.3,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -354,7 +354,7 @@
       "width": 590,
       "height": 603,
       "bytes": 32744,
-      "generateMs": 3.4,
+      "generateMs": 7.9,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -379,7 +379,7 @@
       "width": 590,
       "height": 603,
       "bytes": 32744,
-      "generateMs": 3.2,
+      "generateMs": 3.6,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -404,7 +404,7 @@
       "width": 320,
       "height": 841,
       "bytes": 76276,
-      "generateMs": 37.9,
+      "generateMs": 55.7,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -432,7 +432,7 @@
       "width": 320,
       "height": 841,
       "bytes": 25585,
-      "generateMs": 3.4,
+      "generateMs": 4.4,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -457,7 +457,7 @@
       "width": 320,
       "height": 841,
       "bytes": 25585,
-      "generateMs": 3,
+      "generateMs": 4.4,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -482,7 +482,7 @@
       "width": 320,
       "height": 841,
       "bytes": 76276,
-      "generateMs": 26.4,
+      "generateMs": 36.6,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -510,7 +510,7 @@
       "width": 320,
       "height": 841,
       "bytes": 25585,
-      "generateMs": 3.2,
+      "generateMs": 3.8,
       "warnings": [],
       "validation": {
         "ok": true,

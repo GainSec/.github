@@ -6,7 +6,7 @@
     "theme": "docs/themes/theme-09/research.md"
   },
   "data": {
-    "source": "/private/tmp/claude-501/-Volumes-DevStorage-CURRENT-Projects-profile/8b6d6c8d-0a14-4d9d-a1d3-d81088e9d955/scratchpad/wt/fixtures/profile/gainsec.json",
+    "source": "fixtures/profile/gainsec.json",
     "synthetic": false,
     "generatedAt": "2026-10-22T22:21:17.411Z"
   },
@@ -234,7 +234,7 @@
       "width": 846,
       "height": 420,
       "bytes": 98142,
-      "generateMs": 30.2,
+      "generateMs": 45.5,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -259,7 +259,7 @@
       "width": 846,
       "height": 420,
       "bytes": 24699,
-      "generateMs": 10.2,
+      "generateMs": 11.5,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -284,7 +284,7 @@
       "width": 846,
       "height": 420,
       "bytes": 24605,
-      "generateMs": 10.1,
+      "generateMs": 9.5,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -309,7 +309,7 @@
       "width": 846,
       "height": 420,
       "bytes": 98137,
-      "generateMs": 5.2,
+      "generateMs": 6,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -359,7 +359,7 @@
       "width": 846,
       "height": 420,
       "bytes": 24604,
-      "generateMs": 9.1,
+      "generateMs": 11,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -384,7 +384,7 @@
       "width": 590,
       "height": 914,
       "bytes": 97877,
-      "generateMs": 5.7,
+      "generateMs": 6.9,
       "warnings": [
         "medium: 97877 B above the 90 KB layout target (categories are never dropped)"
       ],
@@ -411,7 +411,7 @@
       "width": 590,
       "height": 914,
       "bytes": 24633,
-      "generateMs": 8.8,
+      "generateMs": 12,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -436,7 +436,7 @@
       "width": 590,
       "height": 914,
       "bytes": 24539,
-      "generateMs": 9.3,
+      "generateMs": 13.4,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -461,7 +461,7 @@
       "width": 590,
       "height": 914,
       "bytes": 97872,
-      "generateMs": 4.8,
+      "generateMs": 7.3,
       "warnings": [
         "medium: 97872 B above the 90 KB layout target (categories are never dropped)"
       ],
@@ -488,7 +488,7 @@
       "width": 590,
       "height": 914,
       "bytes": 24632,
-      "generateMs": 9.3,
+      "generateMs": 11.6,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -513,7 +513,7 @@
       "width": 590,
       "height": 914,
       "bytes": 24538,
-      "generateMs": 10.2,
+      "generateMs": 13.4,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -538,7 +538,7 @@
       "width": 320,
       "height": 804,
       "bytes": 93323,
-      "generateMs": 22.3,
+      "generateMs": 29.5,
       "warnings": [
         "mobile: 93323 B above the 60 KB layout target (categories are never dropped)",
         "1 legend name shortened"
@@ -566,7 +566,7 @@
       "width": 320,
       "height": 804,
       "bytes": 20536,
-      "generateMs": 10.7,
+      "generateMs": 17,
       "warnings": [
         "1 legend name shortened"
       ],
@@ -593,7 +593,7 @@
       "width": 320,
       "height": 804,
       "bytes": 20442,
-      "generateMs": 10,
+      "generateMs": 15.3,
       "warnings": [
         "1 legend name shortened"
       ],
@@ -620,7 +620,7 @@
       "width": 320,
       "height": 804,
       "bytes": 93323,
-      "generateMs": 5,
+      "generateMs": 6.8,
       "warnings": [
         "mobile: 93323 B above the 60 KB layout target (categories are never dropped)",
         "1 legend name shortened"
@@ -648,7 +648,7 @@
       "width": 320,
       "height": 804,
       "bytes": 20536,
-      "generateMs": 9.8,
+      "generateMs": 14.7,
       "warnings": [
         "1 legend name shortened"
       ],
@@ -675,7 +675,7 @@
       "width": 320,
       "height": 804,
       "bytes": 20442,
-      "generateMs": 10.2,
+      "generateMs": 12.6,
       "warnings": [
         "1 legend name shortened"
       ],

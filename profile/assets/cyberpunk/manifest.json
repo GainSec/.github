@@ -6,7 +6,7 @@
     "theme": "docs/themes/theme-06/research.md"
   },
   "data": {
-    "source": "/private/tmp/claude-501/-Volumes-DevStorage-CURRENT-Projects-profile/8b6d6c8d-0a14-4d9d-a1d3-d81088e9d955/scratchpad/wt/fixtures/profile/gainsec.json",
+    "source": "fixtures/profile/gainsec.json",
     "synthetic": false,
     "generatedAt": "2026-10-22T22:21:17.411Z"
   },
@@ -64,7 +64,7 @@
       "width": 846,
       "height": 404,
       "bytes": 62099,
-      "generateMs": 104.7,
+      "generateMs": 192.3,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -89,7 +89,7 @@
       "width": 846,
       "height": 404,
       "bytes": 60299,
-      "generateMs": 5.2,
+      "generateMs": 13.3,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -114,7 +114,7 @@
       "width": 846,
       "height": 404,
       "bytes": 60177,
-      "generateMs": 4.3,
+      "generateMs": 7.1,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -139,7 +139,7 @@
       "width": 846,
       "height": 404,
       "bytes": 62099,
-      "generateMs": 4.5,
+      "generateMs": 12.6,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -164,7 +164,7 @@
       "width": 846,
       "height": 404,
       "bytes": 60299,
-      "generateMs": 4.3,
+      "generateMs": 6.7,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -189,7 +189,7 @@
       "width": 846,
       "height": 404,
       "bytes": 60177,
-      "generateMs": 4.3,
+      "generateMs": 4.5,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -214,7 +214,7 @@
       "width": 590,
       "height": 340,
       "bytes": 53411,
-      "generateMs": 4.2,
+      "generateMs": 6.1,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -239,7 +239,7 @@
       "width": 590,
       "height": 340,
       "bytes": 51610,
-      "generateMs": 3.9,
+      "generateMs": 3.3,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -289,7 +289,7 @@
       "width": 590,
       "height": 340,
       "bytes": 53411,
-      "generateMs": 3.1,
+      "generateMs": 3.5,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -314,7 +314,7 @@
       "width": 590,
       "height": 340,
       "bytes": 51610,
-      "generateMs": 2.7,
+      "generateMs": 3.9,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -339,7 +339,7 @@
       "width": 590,
       "height": 340,
       "bytes": 51488,
-      "generateMs": 3.2,
+      "generateMs": 3.7,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -364,7 +364,7 @@
       "width": 320,
       "height": 440,
       "bytes": 42115,
-      "generateMs": 3.7,
+      "generateMs": 5.3,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -389,7 +389,7 @@
       "width": 320,
       "height": 440,
       "bytes": 40742,
-      "generateMs": 2.1,
+      "generateMs": 2.4,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -414,7 +414,7 @@
       "width": 320,
       "height": 440,
       "bytes": 40620,
-      "generateMs": 1.9,
+      "generateMs": 3.5,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -439,7 +439,7 @@
       "width": 320,
       "height": 440,
       "bytes": 42115,
-      "generateMs": 1.7,
+      "generateMs": 2.1,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -464,7 +464,7 @@
       "width": 320,
       "height": 440,
       "bytes": 40742,
-      "generateMs": 1.7,
+      "generateMs": 4.1,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -489,7 +489,7 @@
       "width": 320,
       "height": 440,
       "bytes": 40620,
-      "generateMs": 2.2,
+      "generateMs": 2.1,
       "warnings": [],
       "validation": {
         "ok": true,
