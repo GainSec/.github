@@ -436,10 +436,8 @@ A reverse-engineered camera-car dashboard and agent API that gives a human or au
 ## Project Constellation
 
 <picture>
-  <source media="(max-width: 767px)" srcset="./assets/threed/g09-mobile-dark-animated.svg">
-  <source media="(max-width: 1279px)" srcset="./assets/threed/g09-medium-dark-animated.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/threed/g09-desktop-dark-animated.svg">
-  <img src="./assets/threed/g09-desktop-light-animated.svg" width="100%" alt="Isometric turntable of the project constellation: five category towers stacked from their subcategories, height by number of projects">
+  <source media="(max-width: 767px)" srcset="./assets/project-terminal/project-terminal-mobile.svg">
+  <img src="./assets/project-terminal/project-terminal-desktop.svg" width="100%" alt="Project constellation as a terminal session: j@sectorg starts in ~/Projects, enters each area and each of its folders in turn and runs gview, which opens a folder window where every project is a holographic trading card with its name, GitHub stars, language and a small turning 3D model of the project">
 </picture>
 
 <details>
