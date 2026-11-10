@@ -1,8 +1,10 @@
 <picture>
-  <source media="(max-width: 767px)" srcset="./assets/skate/g04-mobile-dark-animated.svg">
-  <source media="(max-width: 1279px)" srcset="./assets/skate/g04-medium-dark-animated.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/skate/g04-desktop-dark-animated.svg">
-  <img src="./assets/skate/g04-desktop-light-animated.svg" width="100%" alt="3D skater landing a line of tricks — kickflip, heelflip, pop shove-it, 360 flip, 50-50 grind — over a DIY concrete wall built from release and milestone months">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 767px)" srcset="./assets/last-trick/last-trick-mobile-still.webp">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 1279px)" srcset="./assets/last-trick/last-trick-medium-still.webp">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/last-trick/last-trick-desktop-still.webp">
+  <source media="(max-width: 767px)" srcset="./assets/last-trick/last-trick-mobile.webp">
+  <source media="(max-width: 1279px)" srcset="./assets/last-trick/last-trick-medium.webp">
+  <img src="./assets/last-trick/last-trick-desktop.webp" width="100%" alt="Jon “GainSec” Gaines — a skater rolls into an empty suburban parking lot at sunset, lands a nollie 360 flip with the low sun behind him, and rolls away">
 </picture>
 
 <p align="center">
