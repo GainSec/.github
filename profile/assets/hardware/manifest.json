@@ -638,7 +638,14 @@
         "text": "- 2020-08-13 — Swiping Sunday Podcast Featuring GainSec",
         "repos": []
       }
-    ]
+    ],
+    "session": {
+      "targets": [
+        "Flock Safety",
+        "Verkada",
+        "Kapsch TrafficCom"
+      ]
+    }
   },
   "variants": [
     {
@@ -648,20 +655,20 @@
       "motion": "animated",
       "width": 846,
       "height": 423,
-      "bytes": 59321,
-      "generateMs": 69.2,
+      "bytes": 95827,
+      "generateMs": 123.4,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 59321,
-          "elements": 689,
-          "ids": 45,
-          "animations": 4,
+          "bytes": 95827,
+          "elements": 958,
+          "ids": 48,
+          "animations": 86,
           "filters": 0,
-          "textChars": 85,
-          "embeddedFontBytes": 2937,
+          "textChars": 325,
+          "embeddedFontBytes": 3840,
           "embeddedRasterBytes": 0
         }
       }
@@ -673,20 +680,20 @@
       "motion": "reduced",
       "width": 846,
       "height": 423,
-      "bytes": 57631,
+      "bytes": 63074,
       "generateMs": 6.2,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 57631,
-          "elements": 673,
-          "ids": 45,
+          "bytes": 63074,
+          "elements": 726,
+          "ids": 48,
           "animations": 1,
           "filters": 0,
-          "textChars": 85,
-          "embeddedFontBytes": 2937,
+          "textChars": 128,
+          "embeddedFontBytes": 3840,
           "embeddedRasterBytes": 0
         }
       }
@@ -698,20 +705,20 @@
       "motion": "static",
       "width": 846,
       "height": 423,
-      "bytes": 57453,
-      "generateMs": 7.4,
+      "bytes": 62896,
+      "generateMs": 5.6,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 57453,
-          "elements": 672,
-          "ids": 45,
+          "bytes": 62896,
+          "elements": 725,
+          "ids": 48,
           "animations": 0,
           "filters": 0,
-          "textChars": 85,
-          "embeddedFontBytes": 2937,
+          "textChars": 128,
+          "embeddedFontBytes": 3840,
           "embeddedRasterBytes": 0
         }
       }
@@ -723,20 +730,20 @@
       "motion": "animated",
       "width": 846,
       "height": 423,
-      "bytes": 59644,
-      "generateMs": 4.2,
+      "bytes": 96150,
+      "generateMs": 11.1,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 59644,
-          "elements": 692,
-          "ids": 46,
-          "animations": 4,
+          "bytes": 96150,
+          "elements": 961,
+          "ids": 49,
+          "animations": 86,
           "filters": 1,
-          "textChars": 85,
-          "embeddedFontBytes": 2937,
+          "textChars": 325,
+          "embeddedFontBytes": 3840,
           "embeddedRasterBytes": 0
         }
       }
@@ -748,20 +755,20 @@
       "motion": "reduced",
       "width": 846,
       "height": 423,
-      "bytes": 57954,
-      "generateMs": 3.7,
+      "bytes": 63397,
+      "generateMs": 6.5,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 57954,
-          "elements": 676,
-          "ids": 46,
+          "bytes": 63397,
+          "elements": 729,
+          "ids": 49,
           "animations": 1,
           "filters": 1,
-          "textChars": 85,
-          "embeddedFontBytes": 2937,
+          "textChars": 128,
+          "embeddedFontBytes": 3840,
           "embeddedRasterBytes": 0
         }
       }
@@ -773,20 +780,20 @@
       "motion": "static",
       "width": 846,
       "height": 423,
-      "bytes": 57776,
-      "generateMs": 2.7,
+      "bytes": 63219,
+      "generateMs": 5.6,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 57776,
-          "elements": 675,
-          "ids": 46,
+          "bytes": 63219,
+          "elements": 728,
+          "ids": 49,
           "animations": 0,
           "filters": 1,
-          "textChars": 85,
-          "embeddedFontBytes": 2937,
+          "textChars": 128,
+          "embeddedFontBytes": 3840,
           "embeddedRasterBytes": 0
         }
       }
@@ -798,17 +805,17 @@
       "motion": "animated",
       "width": 590,
       "height": 330,
-      "bytes": 45142,
-      "generateMs": 2.5,
+      "bytes": 61375,
+      "generateMs": 16.5,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 45142,
-          "elements": 490,
-          "ids": 41,
-          "animations": 4,
+          "bytes": 61375,
+          "elements": 627,
+          "ids": 43,
+          "animations": 51,
           "filters": 0,
           "textChars": 81,
           "embeddedFontBytes": 2937,
@@ -823,16 +830,16 @@
       "motion": "reduced",
       "width": 590,
       "height": 330,
-      "bytes": 43458,
-      "generateMs": 3.2,
+      "bytes": 45753,
+      "generateMs": 7.4,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 43458,
-          "elements": 474,
-          "ids": 41,
+          "bytes": 45753,
+          "elements": 503,
+          "ids": 43,
           "animations": 1,
           "filters": 0,
           "textChars": 81,
@@ -848,16 +855,16 @@
       "motion": "static",
       "width": 590,
       "height": 330,
-      "bytes": 43280,
-      "generateMs": 2.8,
+      "bytes": 45575,
+      "generateMs": 8.3,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 43280,
-          "elements": 473,
-          "ids": 41,
+          "bytes": 45575,
+          "elements": 502,
+          "ids": 43,
           "animations": 0,
           "filters": 0,
           "textChars": 81,
@@ -873,17 +880,17 @@
       "motion": "animated",
       "width": 590,
       "height": 330,
-      "bytes": 45142,
-      "generateMs": 2.5,
+      "bytes": 61375,
+      "generateMs": 11,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 45142,
-          "elements": 490,
-          "ids": 41,
-          "animations": 4,
+          "bytes": 61375,
+          "elements": 627,
+          "ids": 43,
+          "animations": 51,
           "filters": 0,
           "textChars": 81,
           "embeddedFontBytes": 2937,
@@ -898,16 +905,16 @@
       "motion": "reduced",
       "width": 590,
       "height": 330,
-      "bytes": 43458,
-      "generateMs": 3.6,
+      "bytes": 45753,
+      "generateMs": 10.6,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 43458,
-          "elements": 474,
-          "ids": 41,
+          "bytes": 45753,
+          "elements": 503,
+          "ids": 43,
           "animations": 1,
           "filters": 0,
           "textChars": 81,
@@ -923,16 +930,16 @@
       "motion": "static",
       "width": 590,
       "height": 330,
-      "bytes": 43280,
-      "generateMs": 4.3,
+      "bytes": 45575,
+      "generateMs": 5.8,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 43280,
-          "elements": 473,
-          "ids": 41,
+          "bytes": 45575,
+          "elements": 502,
+          "ids": 43,
           "animations": 0,
           "filters": 0,
           "textChars": 81,
@@ -949,7 +956,7 @@
       "width": 320,
       "height": 620,
       "bytes": 37921,
-      "generateMs": 10.5,
+      "generateMs": 23.8,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -974,7 +981,7 @@
       "width": 320,
       "height": 620,
       "bytes": 37267,
-      "generateMs": 1.9,
+      "generateMs": 5.9,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -999,7 +1006,7 @@
       "width": 320,
       "height": 620,
       "bytes": 37089,
-      "generateMs": 2.2,
+      "generateMs": 1.8,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -1024,7 +1031,7 @@
       "width": 320,
       "height": 620,
       "bytes": 37921,
-      "generateMs": 1.5,
+      "generateMs": 3.6,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -1049,7 +1056,7 @@
       "width": 320,
       "height": 620,
       "bytes": 37267,
-      "generateMs": 2.4,
+      "generateMs": 7.4,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -1074,7 +1081,7 @@
       "width": 320,
       "height": 620,
       "bytes": 37089,
-      "generateMs": 2.5,
+      "generateMs": 1.7,
       "warnings": [],
       "validation": {
         "ok": true,
