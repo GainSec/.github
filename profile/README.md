@@ -57,12 +57,7 @@ Further research, technical write-ups, commentary, and other posts can be found 
 
 ### Beyond GitHub
 
-<picture>
-  <source media="(max-width: 767px)" srcset="./assets/cyberpunk/g06-mobile-dark-animated.svg">
-  <source media="(max-width: 1279px)" srcset="./assets/cyberpunk/g06-medium-dark-animated.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/cyberpunk/g06-desktop-dark-animated.svg">
-  <img src="./assets/cyberpunk/g06-desktop-light-animated.svg" width="100%" alt="Night-time city block where each building is a publication series from gainsec.com, with item counts and a ticker of publications, talks and disclosures">
-</picture>
+<img src="./assets/living-archive/living-archive.svg" width="100%" alt="Jon “GainSec” Gaines — The living archive: an animated night city in which every building is a project or a group of publications. The camera comes down from the skyline, zooms through windows into rooms where the researcher is at work, travels the Beyond GitHub district where each lit window is one publication, and rises back to the skyline">
 
 <details>
 <summary><strong>Beyond GitHub — publications, talks and media</strong></summary>
@@ -259,7 +254,7 @@ The following incomplete list extends the GitHub record with security research, 
   <source media="(max-width: 767px)" srcset="./assets/knd/g08-mobile-dark-animated.svg">
   <source media="(max-width: 1279px)" srcset="./assets/knd/g08-medium-dark-animated.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/knd/g08-desktop-dark-animated.svg">
-  <img src="./assets/knd/g08-desktop-light-animated.svg" width="100%" alt="Mission dossier: AutoProber operation card with its backronym, rotating 2x4-technology wireframe devices for featured projects, and a mission log">
+  <img src="./assets/knd/g08-desktop-light-animated.svg" width="100%" alt="Mission dossier: each featured project gets an operation card that spells its acronym and breaks it down word by word, then a rotating green wireframe of its own hardware or logo — a probing rig, a treehouse, armor, an ice crystal, a pole camera, a flask, a camera kart — beside a mission log">
 </picture>
 
 <details>

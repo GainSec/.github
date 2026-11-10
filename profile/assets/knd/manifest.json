@@ -22,49 +22,127 @@
         "owner": "GainSec",
         "repo": "AutoProber",
         "title": "AutoProber",
-        "description": "Agent-driven target discovery, microscope mapping, safety-monitored CNC motion, operator review, and controlled PCB pin probing—with source, dashboard, CAD, and safety documentation."
+        "description": "Agent-driven target discovery, microscope mapping, safety-monitored CNC motion, operator review, and controlled PCB pin probing—with source, dashboard, CAD, and safety documentation.",
+        "acronym": "AUTOPROBER",
+        "backronym": [
+          "Agent",
+          "Under",
+          "Tight",
+          "Oversight",
+          "Probes",
+          "Really",
+          "Obscure",
+          "Boards",
+          "Entirely",
+          "Robotically"
+        ],
+        "device": "probe-rig"
       },
       {
         "owner": "GainSec",
         "repo": "Tree-House-Defense-System-TDS",
         "title": "Treehouse Defense System",
-        "description": "A self-hosted 3D RF-awareness and presence-intelligence platform with Steam Frame/WebXR tabletop AR and life-size VR, joining local Wi-Fi, BLE, ADS-B, rail, IoT, infrastructure, and authorized LTE-lab observations."
+        "description": "A self-hosted 3D RF-awareness and presence-intelligence platform with Steam Frame/WebXR tabletop AR and life-size VR, joining local Wi-Fi, BLE, ADS-B, rail, IoT, infrastructure, and authorized LTE-lab observations.",
+        "acronym": "TDS",
+        "backronym": [
+          "Treehouse",
+          "Defense",
+          "System"
+        ],
+        "device": "treehouse"
       },
       {
         "owner": "GainSec",
         "repo": "BattleReadyArmor-Slim",
         "title": "BattleReadyArmor — Slim",
-        "description": "An AI-augmented security assessment framework built around operator authority, scope controls, anonymization, explicit approvals, evidence, and governed reporting."
+        "description": "An AI-augmented security assessment framework built around operator authority, scope controls, anonymization, explicit approvals, evidence, and governed reporting.",
+        "acronym": "BRA",
+        "backronym": [
+          "Battle",
+          "Ready",
+          "Armor"
+        ],
+        "device": "battle-armor"
       },
       {
         "owner": "GainSec",
         "repo": "AgentReadyArmor-Teaser",
         "title": "AgentReadyArmor — Teaser",
-        "description": "A public preview of an agent runtime substrate focused on capability containment, evidence provenance, and auditable operator control."
+        "description": "A public preview of an agent runtime substrate focused on capability containment, evidence provenance, and auditable operator control.",
+        "acronym": "ARA",
+        "backronym": [
+          "Agent",
+          "Ready",
+          "Armor"
+        ],
+        "device": "agent-armor"
       },
       {
         "owner": "GainSec",
         "repo": "ArcticBase",
         "title": "ArcticBase",
-        "description": "A self-hosted workbench for agent approvals, runbooks, files, review artifacts, task state, and auditable out-of-band collaboration."
+        "description": "A self-hosted workbench for agent approvals, runbooks, files, review artifacts, task state, and auditable out-of-band collaboration.",
+        "acronym": "ARCTIC-BASE",
+        "backronym": [
+          "Agents",
+          "Request",
+          "Clearance",
+          "Then",
+          "Idle",
+          "Chilling",
+          "Before",
+          "Anything",
+          "Starts",
+          "Executing"
+        ],
+        "device": "ice-base"
       },
       {
         "owner": "GainSec",
         "repo": "BirdShot",
         "title": "BirdShot",
-        "description": "An offline-first offensive framework for authorized Flock Safety security assessments and penetration testing."
+        "description": "An offline-first offensive framework for authorized Flock Safety security assessments and penetration testing.",
+        "acronym": "BIRDSHOT",
+        "backronym": [
+          "Bird-hunters",
+          "Inspect",
+          "Real",
+          "Devices",
+          "Sanctioned",
+          "Hacking",
+          "Offline",
+          "Testing"
+        ],
+        "device": "pole-camera"
       },
       {
         "owner": "pragma-org",
         "repo": "dwarf",
         "title": "DWARF",
-        "description": "Cardano and Amaru fuzzing and adversarial testing across serialization, mini-protocol, runtime, resource, and consensus surfaces, with replayable evidence and deterministic-simulation integration."
+        "description": "Cardano and Amaru fuzzing and adversarial testing across serialization, mini-protocol, runtime, resource, and consensus surfaces, with replayable evidence and deterministic-simulation integration.",
+        "acronym": "DWARF",
+        "backronym": [
+          "Delivers",
+          "Weird",
+          "Abuse",
+          "Records",
+          "Fallout"
+        ],
+        "device": "test-flask"
       },
       {
         "owner": "GainSec",
         "repo": "Super-Awesome-AI-Driver",
         "title": "Super Awesome AI Driver",
-        "description": "A reverse-engineered camera-car dashboard and agent API that gives a human or authorized agent live video, two-way audio, and motion control."
+        "description": "A reverse-engineered camera-car dashboard and agent API that gives a human or authorized agent live video, two-way audio, and motion control.",
+        "acronym": "SAAD",
+        "backronym": [
+          "Super",
+          "Awesome",
+          "AI",
+          "Driver"
+        ],
+        "device": "camera-kart"
       }
     ],
     "featured": [
@@ -89,24 +167,23 @@
       "motion": "animated",
       "width": 846,
       "height": 420,
-      "bytes": 118247,
-      "generateMs": 194.8,
+      "bytes": 214656,
+      "generateMs": 96.5,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [
-          "size.warn",
           "id.prefix",
           "id.prefix"
         ],
         "stats": {
-          "bytes": 118247,
-          "elements": 697,
-          "ids": 68,
-          "animations": 54,
+          "bytes": 214656,
+          "elements": 536,
+          "ids": 64,
+          "animations": 44,
           "filters": 0,
-          "textChars": 2085,
-          "embeddedFontBytes": 10749,
+          "textChars": 1675,
+          "embeddedFontBytes": 10641,
           "embeddedRasterBytes": 0
         }
       }
@@ -118,19 +195,19 @@
       "motion": "reduced",
       "width": 846,
       "height": 420,
-      "bytes": 32719,
-      "generateMs": 66.3,
+      "bytes": 28427,
+      "generateMs": 29,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 32719,
-          "elements": 262,
-          "ids": 39,
+          "bytes": 28427,
+          "elements": 180,
+          "ids": 33,
           "animations": 0,
           "filters": 0,
-          "textChars": 449,
+          "textChars": 440,
           "embeddedFontBytes": 8103,
           "embeddedRasterBytes": 0
         }
@@ -143,19 +220,19 @@
       "motion": "static",
       "width": 846,
       "height": 420,
-      "bytes": 32719,
-      "generateMs": 9.2,
+      "bytes": 28427,
+      "generateMs": 5.1,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 32719,
-          "elements": 262,
-          "ids": 39,
+          "bytes": 28427,
+          "elements": 180,
+          "ids": 33,
           "animations": 0,
           "filters": 0,
-          "textChars": 449,
+          "textChars": 440,
           "embeddedFontBytes": 8103,
           "embeddedRasterBytes": 0
         }
@@ -168,24 +245,23 @@
       "motion": "animated",
       "width": 846,
       "height": 420,
-      "bytes": 118247,
-      "generateMs": 31.9,
+      "bytes": 214656,
+      "generateMs": 27.6,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [
-          "size.warn",
           "id.prefix",
           "id.prefix"
         ],
         "stats": {
-          "bytes": 118247,
-          "elements": 697,
-          "ids": 68,
-          "animations": 54,
+          "bytes": 214656,
+          "elements": 536,
+          "ids": 64,
+          "animations": 44,
           "filters": 0,
-          "textChars": 2085,
-          "embeddedFontBytes": 10749,
+          "textChars": 1675,
+          "embeddedFontBytes": 10641,
           "embeddedRasterBytes": 0
         }
       }
@@ -197,19 +273,19 @@
       "motion": "reduced",
       "width": 846,
       "height": 420,
-      "bytes": 32719,
-      "generateMs": 8.8,
+      "bytes": 28427,
+      "generateMs": 5.3,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 32719,
-          "elements": 262,
-          "ids": 39,
+          "bytes": 28427,
+          "elements": 180,
+          "ids": 33,
           "animations": 0,
           "filters": 0,
-          "textChars": 449,
+          "textChars": 440,
           "embeddedFontBytes": 8103,
           "embeddedRasterBytes": 0
         }
@@ -222,19 +298,19 @@
       "motion": "static",
       "width": 846,
       "height": 420,
-      "bytes": 32719,
-      "generateMs": 7.7,
+      "bytes": 28427,
+      "generateMs": 6.6,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 32719,
-          "elements": 262,
-          "ids": 39,
+          "bytes": 28427,
+          "elements": 180,
+          "ids": 33,
           "animations": 0,
           "filters": 0,
-          "textChars": 449,
+          "textChars": 440,
           "embeddedFontBytes": 8103,
           "embeddedRasterBytes": 0
         }
@@ -247,8 +323,8 @@
       "motion": "animated",
       "width": 590,
       "height": 603,
-      "bytes": 90828,
-      "generateMs": 94,
+      "bytes": 213548,
+      "generateMs": 33.3,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -257,13 +333,13 @@
           "id.prefix"
         ],
         "stats": {
-          "bytes": 90828,
-          "elements": 691,
-          "ids": 65,
-          "animations": 53,
+          "bytes": 213548,
+          "elements": 532,
+          "ids": 61,
+          "animations": 44,
           "filters": 0,
-          "textChars": 2089,
-          "embeddedFontBytes": 10704,
+          "textChars": 1675,
+          "embeddedFontBytes": 10641,
           "embeddedRasterBytes": 0
         }
       }
@@ -275,19 +351,19 @@
       "motion": "reduced",
       "width": 590,
       "height": 603,
-      "bytes": 32744,
-      "generateMs": 4.6,
+      "bytes": 28435,
+      "generateMs": 3.5,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 32744,
-          "elements": 262,
-          "ids": 39,
+          "bytes": 28435,
+          "elements": 180,
+          "ids": 33,
           "animations": 0,
           "filters": 0,
-          "textChars": 449,
+          "textChars": 440,
           "embeddedFontBytes": 8103,
           "embeddedRasterBytes": 0
         }
@@ -300,19 +376,19 @@
       "motion": "static",
       "width": 590,
       "height": 603,
-      "bytes": 32744,
-      "generateMs": 10.7,
+      "bytes": 28435,
+      "generateMs": 9.5,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 32744,
-          "elements": 262,
-          "ids": 39,
+          "bytes": 28435,
+          "elements": 180,
+          "ids": 33,
           "animations": 0,
           "filters": 0,
-          "textChars": 449,
+          "textChars": 440,
           "embeddedFontBytes": 8103,
           "embeddedRasterBytes": 0
         }
@@ -325,8 +401,8 @@
       "motion": "animated",
       "width": 590,
       "height": 603,
-      "bytes": 90828,
-      "generateMs": 29.3,
+      "bytes": 213548,
+      "generateMs": 15.5,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -335,13 +411,13 @@
           "id.prefix"
         ],
         "stats": {
-          "bytes": 90828,
-          "elements": 691,
-          "ids": 65,
-          "animations": 53,
+          "bytes": 213548,
+          "elements": 532,
+          "ids": 61,
+          "animations": 44,
           "filters": 0,
-          "textChars": 2089,
-          "embeddedFontBytes": 10704,
+          "textChars": 1675,
+          "embeddedFontBytes": 10641,
           "embeddedRasterBytes": 0
         }
       }
@@ -353,19 +429,19 @@
       "motion": "reduced",
       "width": 590,
       "height": 603,
-      "bytes": 32744,
-      "generateMs": 7.9,
+      "bytes": 28435,
+      "generateMs": 5.1,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 32744,
-          "elements": 262,
-          "ids": 39,
+          "bytes": 28435,
+          "elements": 180,
+          "ids": 33,
           "animations": 0,
           "filters": 0,
-          "textChars": 449,
+          "textChars": 440,
           "embeddedFontBytes": 8103,
           "embeddedRasterBytes": 0
         }
@@ -378,19 +454,19 @@
       "motion": "static",
       "width": 590,
       "height": 603,
-      "bytes": 32744,
-      "generateMs": 3.6,
+      "bytes": 28435,
+      "generateMs": 4.1,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 32744,
-          "elements": 262,
-          "ids": 39,
+          "bytes": 28435,
+          "elements": 180,
+          "ids": 33,
           "animations": 0,
           "filters": 0,
-          "textChars": 449,
+          "textChars": 440,
           "embeddedFontBytes": 8103,
           "embeddedRasterBytes": 0
         }
@@ -402,9 +478,9 @@
       "mode": "dark",
       "motion": "animated",
       "width": 320,
-      "height": 841,
-      "bytes": 76276,
-      "generateMs": 55.7,
+      "height": 691,
+      "bytes": 185138,
+      "generateMs": 26.9,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -413,13 +489,13 @@
           "id.prefix"
         ],
         "stats": {
-          "bytes": 76276,
-          "elements": 636,
-          "ids": 65,
-          "animations": 52,
+          "bytes": 185138,
+          "elements": 487,
+          "ids": 61,
+          "animations": 48,
           "filters": 0,
-          "textChars": 2004,
-          "embeddedFontBytes": 4104,
+          "textChars": 1595,
+          "embeddedFontBytes": 4008,
           "embeddedRasterBytes": 0
         }
       }
@@ -430,20 +506,20 @@
       "mode": "dark",
       "motion": "reduced",
       "width": 320,
-      "height": 841,
-      "bytes": 25585,
-      "generateMs": 4.4,
+      "height": 691,
+      "bytes": 21191,
+      "generateMs": 3.3,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 25585,
-          "elements": 257,
-          "ids": 39,
+          "bytes": 21191,
+          "elements": 175,
+          "ids": 33,
           "animations": 0,
           "filters": 0,
-          "textChars": 446,
+          "textChars": 437,
           "embeddedFontBytes": 3222,
           "embeddedRasterBytes": 0
         }
@@ -455,20 +531,20 @@
       "mode": "dark",
       "motion": "static",
       "width": 320,
-      "height": 841,
-      "bytes": 25585,
-      "generateMs": 4.4,
+      "height": 691,
+      "bytes": 21191,
+      "generateMs": 3.1,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 25585,
-          "elements": 257,
-          "ids": 39,
+          "bytes": 21191,
+          "elements": 175,
+          "ids": 33,
           "animations": 0,
           "filters": 0,
-          "textChars": 446,
+          "textChars": 437,
           "embeddedFontBytes": 3222,
           "embeddedRasterBytes": 0
         }
@@ -480,9 +556,9 @@
       "mode": "light",
       "motion": "animated",
       "width": 320,
-      "height": 841,
-      "bytes": 76276,
-      "generateMs": 36.6,
+      "height": 691,
+      "bytes": 185138,
+      "generateMs": 15.5,
       "warnings": [],
       "validation": {
         "ok": true,
@@ -491,13 +567,13 @@
           "id.prefix"
         ],
         "stats": {
-          "bytes": 76276,
-          "elements": 636,
-          "ids": 65,
-          "animations": 52,
+          "bytes": 185138,
+          "elements": 487,
+          "ids": 61,
+          "animations": 48,
           "filters": 0,
-          "textChars": 2004,
-          "embeddedFontBytes": 4104,
+          "textChars": 1595,
+          "embeddedFontBytes": 4008,
           "embeddedRasterBytes": 0
         }
       }
@@ -508,20 +584,20 @@
       "mode": "light",
       "motion": "reduced",
       "width": 320,
-      "height": 841,
-      "bytes": 25585,
-      "generateMs": 3.8,
+      "height": 691,
+      "bytes": 21191,
+      "generateMs": 4.3,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 25585,
-          "elements": 257,
-          "ids": 39,
+          "bytes": 21191,
+          "elements": 175,
+          "ids": 33,
           "animations": 0,
           "filters": 0,
-          "textChars": 446,
+          "textChars": 437,
           "embeddedFontBytes": 3222,
           "embeddedRasterBytes": 0
         }
@@ -533,20 +609,20 @@
       "mode": "light",
       "motion": "static",
       "width": 320,
-      "height": 841,
-      "bytes": 25585,
-      "generateMs": 3.9,
+      "height": 691,
+      "bytes": 21191,
+      "generateMs": 3.2,
       "warnings": [],
       "validation": {
         "ok": true,
         "warnings": [],
         "stats": {
-          "bytes": 25585,
-          "elements": 257,
-          "ids": 39,
+          "bytes": 21191,
+          "elements": 175,
+          "ids": 33,
           "animations": 0,
           "filters": 0,
-          "textChars": 446,
+          "textChars": 437,
           "embeddedFontBytes": 3222,
           "embeddedRasterBytes": 0
         }
